@@ -1,0 +1,986 @@
+Abstract Galactic Star.spt                                  Abstract_GalacticStar.GS2
+Abstract Vr8R.spt                                           Abstract_VR8R.GS2
+Abstract VRX Color.spt                                      Abstract_VRX_Color.GS2
+Abstract VRX Scanner.spt                                    Abstract_VRX_Scan.GS2
+Abstract XP2 Scanner.spt                                    Abstract_XP2.GS2
+Abstract XP3 Spin.spt                                       Abstract_XP3.GS2
+Abstract XP4 Colour.spt                                     Abstract_XP4.GS2
+AC Lighting ColorBlock m7.spt                               ACLighting_ColorBlockDB4_m7.GS2
+AC Lighting ColorBlock m8.spt                               ACLighting_ColorBlockDB4_m8.GS2
+AC Lighting ColorBlock m9.spt                               ACLighting_ColorBlockDB4_m9.GS2
+AC Lighting Color Split m1.spt                              ACLighting_ColorSplit_m1.GS2
+AC Lighting Color Split m2.spt                              ACLighting_ColorSplit_m2.GS2
+AC Lighting Color Split m3.spt                              ACLighting_ColorSplit_m3.GS2
+AC Lighting Color Split m4.spt                              ACLighting_ColorSplit_m4.GS2
+AC Lighting Tour Spot 250 (10 ch).spt                       ACLighting_TourSpot250_10ch.GS2
+AC Lighting Tour Spot 250 (13 ch).spt                       ACLighting_TourSpot250_13ch.GS2
+AC Lighting Tour Spot 575 (10 ch).spt                       ACLighting_TourSpot575_10ch.GS2
+AC Lighting Tour Spot 575 (14 ch).spt                       ACLighting_TourSpot575_14ch.GS2
+AC Lighting Tour Wash 250 (9 ch).spt                        ACLighting_TourWash250_9ch.GS2
+AC Lighting Tour Wash 250 (15 ch).spt                       ACLighting_TourWash250_15ch.GS2
+AC Lighting Tour Wash 575 (9 ch).spt                        ACLighting_TourWash575_9ch.GS2
+AC Lighting Tour Wash 575 (15 ch).spt                       ACLighting_TourWash575_15ch.GS2
+Acme Dynamo.spt                                             Acme_Dynamo.GS2
+Acme Dynarock.spt                                           Acme_Dynarock.GS2
+Acme Dynaroll (Part 1).spt                                  Acme_Dynaroll-1.GS2
+Acme Dynaroll (Part 2).spt                                  Acme_Dynaroll-2.GS2
+Acme Dynatwin (Part 1).spt                                  Acme_Dynatwin-1.GS2
+Acme Dynatwin (Part 2).spt                                  Acme_Dynatwin-2.GS2
+Acme iMove 1200S 8bit.spt                                   Acme IMove 1200s_8bit.GS2
+Acme iMove 1200S 16bit.spt                                  Acme IMove 1200s_16bit.GS2
+Acme iMove 250S 16bit.spt                                   Acme IMove 250s_16bit.GS2
+Acme iMove 250W 16bit.spt                                   Acme_iMove250w_16bit.GS2
+Acme iMove 5S.spt                                           Acme IMove5S.GS2
+Acme iMove 5W.spt                                           Acme IMove 5W.GS2
+Acme iMove 700S 16bit.spt                                   Acme IMove 700s_16bit.GS2
+Acme iMove 7S.spt                                           Acme IMove 7C-7S.GS2
+Acme iMove 8S.spt                                           Acme IMove 8C-8S.GS2
+Acme iRock 4C.spt                                           Acme IRock4C.GS2
+Acme iRock 5C.spt                                           Acme IRock5C.GS2
+Robe Spot 250xt Zoom  m1.spt                                Acme IMove 250W.GS2
+Robe Spot 250xt Zoom  m1.spt                                Acme IMove 250S.GS2
+Acme MH-6605.spt                                            Acme_MH6605.GS2
+Acme MH-6606.spt                                            Acme_MH6606.GS2
+Acme Emperor 250.spt                                        ACME_MH6616SpotEmperor.GS2
+JB Systems Spot Knight.spt                                  Acme Spot Knight.GS2
+Acme MH-665a Spot King.spt                                  AcmeSpotKingMH-665A.GS2
+Acme MH-666a.spt                                            Acme_MH666a.GS2
+Acme MH-666a.spt                                            Acme MH-666A Spot Queen.GS2
+Acme Splendor 18 8bit.spt                                   Acme_Splendor18_8bit.GS2
+Acme Splendor 18 16bit.spt                                  Acme_Splendor18_16bit.GS2
+Acme Splendor 36 8bit.spt                                   Acme_Splendor36_8bit.GS2
+Acme Splendor 36 16bit.spt                                  Acme_Splendor36_16bit.GS2
+Acme MH-640b The Rover.spt                                  Acme_TheRover.GS2
+Acme MH-640s.spt                                            Acme The winner.GS2       
+ADB Warp-M 12-30 (Iris-Gobo).spt                            ADB_WarpM_Intensity.GS2
+ADB Warp-M 12-30 (Iris-Gobo).spt                            ADB_WarpM.GS2
+Alkalite Tracpod_Octopod (6 chan).spt                       Alkalite_Tracpod-Octopod-RGB.GS2
+Alkalite Octopod 80.spt                                     Alkalite_Octopod.GS2
+Alpha One Falcon 6000 3K.spt                                AlphaOne_Falcon6000.GS2
+Alpha One Falcon Beam 3K.spt                                AlphaOne_FalconBeamColor.GS2
+Alpha One Falcon Beam White 3K.spt                          AlphaOne_FalconBeamWhite.GS2
+Alpha One Falcon Flower 3K.spt                              AlphaOne_FalconFlower.GS2
+ADJ Accu Color 250.spt                                      ADJ_AccuColor250.GS2
+ADJ Accu Roller 250.spt                                     ADJ_AccuRoller250.GS2
+ADJ Accu Scan 250.spt                                       ADJ_AccuScan250.GS2
+ADJ Accu Spot 250.spt                                       ADJ_AccuSpot250.GS2
+ADJ Accu Spot 250-II (8 chan).spt                           ADJ_AccuSpot250-II (8 cha).GS2
+ADJ Accu Spot 250-II (9 chan).spt                           ADJ_AccuSpot250-II (9 cha).GS2
+ADJ Accu Spot 300.spt                                       ADJ_AccuSpot300.GS2
+ADJ Accu Wash 250.spt                                       ADJ_AccuWash250.GS2
+ADJ Auto Spot.spt                                           ADJ AutoSpot.GS2
+ADJ Color 150.spt                                           ADJ_Color_150.GS2
+ADJ Color 250D.spt                                          AmericanDJ_Color250D.GS2
+ADJ Color Fusion.spt                                        AmericanDJ_ColorFusion.GS2
+ADJ Concept 2.spt                                           ADJ Concept1.GS2
+ADJ Concept 2.spt                                           ADJ Concept2.GS2
+ADJ CW-12 (3 cha).spt                                       ADJ_CW-12_3ch.GS2
+ADJ CW-12 (5 cha).spt                                       ADJ_CW-12_5ch.GS2
+ADJ DJ Scan 250.spt                                         AmericanDJ_DJScan250.GS2
+ADJ DJ Scan 250 HP.spt                                      ADJ_DJScan250HP.GS2
+ADJ DJ Spot 250.spt                                         ADJ_DJSpot250.GS2
+ADJ Dynasty Scan.spt                                        ADJ_DynastyScan.GS2
+ADJ Mega Strobe.spt                                         ADJ_MegaStrobe.GS2
+GLP MightyScan.spt                                          AmericanDJ_MightyScan.GS2
+ADJ PAR 36 LED.spt                                          ADJ_PAR36_LED.GS2
+ADJ PAR 64 LED.spt                                          ADJ_PAR64_LED.GS2
+ADJ PAR 64 LED UV.spt                                       ADJ_P64_LEDUV.GS2
+ADJ PAR 64 LED WH.spt                                       ADJ_PAR64_LEDWH.GS2
+ADJ Performance Scan 250.spt                                ADJ_PerformanceScan250.GS2
+ADJ PocketScan.spt                                          American DJ PocketScan.GS2
+ADJ Rainbow 250.spt                                         ADJ_Rainbow250.GS2
+ADJ RollerTron.spt                                          ADJ Roller Tron.GS2
+ADJ RollerTron (no head).spt                                ADJ Roller Tron (no head).GS2
+ADJ RollerTron 250.spt                                      ADJ_RollerTron250.GS2
+ADJ ScanTron (no head).spt                                  ADJ Scan Tron (no head).GS2
+ADJ ScanTron 250.spt                                        ADJ_ScanTron250.GS2
+ADJ ScanTron 250 (no head).spt                              ADJ_ScanTron250_(no head).GS2
+ADJ Tri Beam.spt                                            AmericanDJ_TriBeam.GS2
+ADJ UltraScan 250.spt                                       ADJ Ultra Scan 250.GS2
+ADJ X-Calibur.spt                                           ADJ X-Calibur.GS2
+Apollo AP-L1036.spt                                         Apollo_APL1036.GS2
+Ayrton EyeColor 8bit.spt                                    Ayrton_Easycolor_8bit(7ch).GS2
+Ayrton EyeColor 16bit.spt                                   Ayrton_Easycolor_16 bit(9ch).GS2
+Ayrton EasyColor2 8bit.spt                                  Ayrton_Easycolor2_8 bit.GS2
+Ayrton EasyColor2 16bit.spt                                 Ayrton_Easycolor2_16 bit.GS2
+Chauvet Color Bank 4 (RGB, Panel).spt                       Chauvet_ColorBank.GS2
+Chauvet Color Tube.spt                                      Chauvet_ColorTube.GS2
+Chauvet Colorado1.spt                                       Chauvet_Colorado1.GS2
+Chauvet Colorado3 m1.spt                                    Chauvet_Colorado3_m1.GS2
+Chauvet Colorado3 m2 (Module 1 Pixel).spt                   Chauvet_ColorMist.GS2
+Chauvet Colorado3 m2 (Module 2 Pixel).spt                   Chauvet_ColorMist.GS2
+Chauvet Colorado3 m2 (Module 3 Pixel).spt                   Chauvet_ColorMist.GS2
+Chauvet ColorSplash 200B.spt                                Chauvet_ColorSplash200B.GS2
+Chauvet ColorSplash Jr..spt                                 Chauvet_ColorSplashJR.GS2
+Chauvet ColorSplash Jr. (5 cha).spt                         Chauvet_ColorSplashJR_5ch.GS2
+Chauvet ColorTrack III.spt                                  Chauvet_ColorTrack_III.GS2
+Chauvet Fascination.spt                                     Chauvet Fascination.GS2
+Chauvet Gyro CH-925.spt                                     Chauvet Gyro.GS2
+Chauvet Imagination.spt                                     Chauvet Imagination DMX ELC.GS2
+Chauvet Insignia 2.0.spt                                    Chauvet Insignia2.GS2
+Chauvet Intimidator.spt                                     Chauvet Intimidator.GS2
+Chauvet Intimidator 2.0.spt                                 Chauvet Intimidator2.GS2
+Chauvet Intimidator 2.0 HTI.spt                             Chauvet Intimidator2HTI.GS2
+Chauvet Intimidator.spt                                     Chauvet_IntimidatorSpot.GS2
+Chauvet Kinta.spt                                           Chauvet Kinta.GS2
+Chauvet Kinta 2.spt                                         Chauvet Kinta2.GS2
+Chauvet LED Rain 36.spt                                     Chauvet_LEDRain36.GS2
+Chauvet LED Rain 56.spt                                     Chauvet_LEDRain56.GS2
+Chauvet Legend 150R.spt                                     Chauvet Legend 150R.GS2
+Chauvet Legend 2000 8bit.spt                                Chauvet_Legend2000_8bit.GS2
+Chauvet Legend 2000 16bit.spt                               Chauvet_Legend2000_16bit.GS2
+Chauvet Legend 250RX.spt                                    Chauvet_Legend250RX.GS2
+Chauvet Legend 3000 8bit.spt                                Chauvet_Legend3000_8bit.GS2
+Chauvet Legend 3000 16bit.spt                               Chauvet_Legend3000_16bit.GS2
+Chauvet Legend 5000 8bit.spt                                Chauvet_Legend5000_8bit.GS2
+Chauvet Legend 5000 16bit.spt                               Chauvet_Legend5000_16bit.GS2
+Chauvet Legend 6000 8bit.spt                                Chauvet_Legend6000_8bit.GS2
+Chauvet Legend 6000 16bit.spt                               Chauvet_Legend6000_16bit.GS2
+Chauvet Mega Strobe.spt                                     Chauvet_MegaStrobe(DMX750).GS2
+Chauvet Mega Strobe II.spt                                  Chauvet_MegaStrobe_II (CH750).GS2
+Chauvet MiN Spot 8bit (P540-T270).spt                       Chauvet_MinSpot_8bit.GS2
+Chauvet MiN Spot 16bit  (P540-T270).spt                     Chauvet_MinSpot_16bit.GS2
+Chauvet MiN Wash 8bit  (P540-T270).spt                      Chauvet_MinWash_8bit.GS2
+Chauvet MiN Wash 16bit  (P540-T270).spt                     Chauvet_MinWash_16bit.GS2
+Chauvet Mini Legend.spt                                     Chauvet Mini Legend.GS2
+Chauvet Mini Legend ILS.spt                                 Chauvet Mini Legend ILS.GS2
+Chauvet Mini Legend ILS (Color Split).spt                   Chauvet Mini Legend ILS (CS).GS2
+Chauvet Mini Legend Wash.spt                                Chauvet Mini LegendWash.GS2
+Chauvet Mini Legend Wash ILS.spt                            Chauvet Mini LegendWashILS.GS2
+Chauvet Oceana.spt                                          Chauvet_Oceana.GS2
+Chauvet Omega 250C.spt                                      Chauvet_Omega250C.GS2
+Chauvet Q-Roll 250 (6 cha).spt                              Chauvet_QRoll250 (6 chan).GS2
+Chauvet Q-Roll 250 (7 cha).spt                              Chauvet_QRoll250 (7 chan).GS2
+Chauvet Q-Scan 250 (6 cha).spt                              Chauvet_QScan250 (6 chan).GS2
+Chauvet Q-Scan 250 (7 cha).spt                              Chauvet_QScan250 (7 chan).GS2
+Chauvet Q-Spot 150 (8bit).spt                               Chauvet_QSpot150_8bit.GS2
+Chauvet Q-Spot 150 (8bit, P3=ON).spt                        Chauvet_QSpot150_8bitP3.GS2
+Chauvet Q-Spot 150 (16bit, P1=ON).spt                       Chauvet_QSpot150_16bitP1.GS2
+Chauvet Q-Spot 150 (16bit, P2=ON).spt                       Chauvet_QSpot150_16bitP2.GS2
+Chauvet Q-Spot 250.spt                                      Chauvet_QSpot250.GS2
+Chauvet Q-Spot 575.spt                                      Chauvet_QSpot575.GS2
+Chauvet Q-Wash LED.spt                                      Chauvet_QWashLED.GS2
+Chauvet Q-Wash LED 36.spt                                   Chauvet_QWashLED36.GS2
+Chauvet Sensation.spt                                       Chauvet Sensation DMX ELC.GS2
+Chauvet Spectrum 150.spt                                    Chauvet_Spectrum150.GS2
+Chauvet Spectrum 250.spt                                    Chauvet_Spectrum250.GS2
+Chauvet Spectrum 252.spt                                    Chauvet_Spectrum252.GS2
+Chauvet Spectrum 575.spt                                    Chauvet_Spectrum575.GS2
+Chauvet Stage Wash 1550 (RGBC).spt                          Chauvet_StageWash1550_RGBC.GS2
+Chauvet Stage Wash 1550 (RGBD).spt                          Chauvet_StageWash1550_RGBD.GS2
+Chauvet Stage Wash 950 (RGBC).spt                           Chauvet_StageWash950_RGBC.GS2
+Chauvet Stage Wash 950 (RGBD).spt                           Chauvet_StageWash950_RGBD.GS2
+Chauvet TrackScan 250R.spt                                  Chauvet_Trackscan_250R.GS2
+Clay Paky Alpha Beam 300 16bit (Vect, 17 cha).spt           CP_AlphaBeam300.GS2
+Clay Paky Alpha Profile 1200 16bit (31 cha).spt             CP_AlphaProfile1200_16Bit.GS2
+Clay Paky Alpha Profile 1200 16bit (Extn, 31 cha).spt       CP_AlphaProfile1200_Extn_16Bit.GS2
+Clay Paky Alpha Spot 16bit.spt                              CP_AlphaSpot_16Bit.GS2
+Clay Paky Alpha Spot 8bit.spt                               CP_AlphaSpot_8Bit.GS2
+Clay Paky Alpha Spot 1200 16bit.spt                         CP_AlphaSpot_1200_16Bit.GS2
+Clay Paky Alpha Spot 1200 8bit.spt                          CP_AlphaSpot_1200_8Bit.GS2
+Clay Paky Alpha Spot 1200 RGB 16bit.spt                     CP_AlphaSpot_1200_RGB_16Bit.GS2
+Clay Paky Alpha Spot 1200 RGB 8bit.spt                      CP_AlphaSpot_1200_RGB_8Bit.GS2
+Clay Paky Alpha Spot 700 16bit.spt                          CP_AlphaSpot_700_16Bit.GS2
+Clay Paky Alpha Spot 700 8bit.spt                           CP_AlphaSpot_700_8Bit.GS2
+Clay Paky Alpha Spot 700 RGB 16bit.spt                      CP_AlphaSpot_700_RGB_16Bit.GS2
+Clay Paky Alpha Spot 700 RGB 8bit.spt                       CP_AlphaSpot_700_RGB_8Bit.GS2
+Clay Paky Alpha Spot Easy 1200 16bit.spt                    CP_AlphaSpotEasy1200_16Bit.GS2
+Clay Paky Alpha Spot Easy 1200 16bit (Extn).spt             CP_AlphaSpotEasy1200_Extn.GS2
+Clay Paky Alpha Spot Easy 1200 8bit.spt                     CP_AlphaSpotEasy1200_Stnd.GS2
+Clay Paky Alpha Spot HPE 16bit.spt                          CP_AlphaSpot_HPE_16Bit.GS2
+Clay Paky Alpha Spot HPE 8bit.spt                           CP_AlphaSpot_HPE_8Bit.GS2
+Clay Paky Alpha Spot HPE RGB 16bit.spt                      CP_AlphaSpot_HPE_RGB_16Bit.GS2
+Clay Paky Alpha Spot HPE RGB 8bit.spt                       CP_AlphaSpot_HPE_RGB_8Bit.GS2
+Clay Paky Alpha Spot HPE 1200 16bit.spt                     CP_AlphaSpot_HPE_1200_16Bit.GS2
+Clay Paky Alpha Spot HPE 1200 8bit.spt                      CP_AlphaSpot_HPE_1200_8Bit.GS2
+Clay Paky Alpha Spot HPE 1200 RGB 16bit.spt                 CP_AlphaSpot_HPE_1200_RGB_16Bit.GS2
+Clay Paky Alpha Spot HPE 1200 RGB 8bit.spt                  CP_AlphaSpot_HPE_1200_RGB_8Bit.GS2
+Clay Paky Alpha Wash 8bit.spt                               CP_AlphaWash_CMY_8Bit.GS2
+Clay Paky Alpha Wash 16bit.spt                              CP_AlphaWash_CMY_16Bit.GS2
+Clay Paky Alpha Wash RGB 8bit.spt                           CP_AlphaWash_RGB_8Bit.GS2
+Clay Paky Alpha Wash RGB 16bit.spt                          CP_AlphaWash_RGB_16Bit.GS2
+Clay Paky Alpha Wash 1200 16bit.spt                         CP_AlphaWash1200_CMY_16Bit.GS2
+Clay Paky Alpha Wash 1200 16bit (Extn).spt                  CP_AlphaWash1200_CMY_Extn.GS2
+Clay Paky Alpha Wash 1200 8bit.spt                          CP_AlphaWash1200_CMY_Stnd.GS2
+Clay Paky Alpha Wash Easy 1200 16bit.spt                    CP_AlphaWashEasy1200_CMY_16Bit.GS2
+Clay Paky Alpha Wash Easy 1200 16bit (Extn).spt             CP_AlphaWashEasy1200_CMY_Extn.GS2
+Clay Paky Alpha Wash Easy 1200 8bit.spt                     CP_AlphaWashEasy1200_CMY_Stnd.GS2
+Clay Paky Alpha Wash Halo 16bit.spt                         CP_AlphaWashHalo1000_CMY_16Bit.GS2
+Clay Paky Alpha Wash Halo 16bit (Extn).spt                  CP_AlphaWashHalo1000_CMY_Extn.GS2
+Clay Paky Alpha Wash Halo 8bit.spt                          CP_AlphaWashHalo1000_CMY_Stnd.GS2
+Clay Paky Alpha Wash Halo 1200 16bit.spt                    CP_AlphaWashHalo1200_CMY_16Bit.GS2
+Clay Paky Alpha Wash Halo 1200 16bit (Extn).spt             CP_AlphaWashHalo1200_CMY_Extn.GS2
+Clay Paky Alpha Wash Halo 1200 8bit.spt                     CP_AlphaWashHalo1200_CMY_Stnd.GS2
+Clay Paky Alpha Wash TH 8bit.spt                            CP_AlphaWash_TH_CMY_8Bit.GS2
+Clay Paky Alpha Wash TH 16bit.spt                           CP_AlphaWash_TH_CMY_16Bit.GS2
+Clay Paky Alpha Wash TH RGB 8bit.spt                        CP_AlphaWash_TH_RGB_8Bit.GS2
+Clay Paky Alpha Wash TH RGB 16bit.spt                       CP_AlphaWash_TH_RGB_16Bit.GS2
+Clay Paky Atlas.spt                                         ClayPakyAtlas.GS2
+Clay Paky Stage Color 1000.spt                              CP_StageColor1000_16.GS2
+Clay Paky Stage Zoom 1200sv 16-bit (20 chan).spt            CP_StageZoom1200_SV_16Bit.GS2
+Clay Paky CP Color MH cmy 16bit.spt                         ClayPakyColorMH_CMY16.GS2
+Clay Paky CP Color MH cmy 8bit.spt                          ClayPakyColorMH_CMY8.GS2
+Clay Paky CP Color MH rgb 16bit.spt                         ClayPakyColorMH_RGB16.GS2
+Clay Paky CP Color MH rgb 8bit.spt                          ClayPakyColorMH_RGB8.GS2
+Clay Paky Colorwave 300 (HTI DEL).spt                       ClayPaky_ColorWave300.GS2
+Clay Paky CombiColor 575.spt                                CP_CombiColor300_575.GS2
+Clay Paky CP Color 150 cmy.spt                              CP_Color150CMY.GS2
+Clay Paky CP Color 150 rgb.spt                              CP_Color150RGB.GS2
+Clay Paky CP Color 250 cmy.spt                              CP_Color250CMY.GS2
+Clay Paky CP Color 250 rgb.spt                              CP_Color250RGB.GS2
+Clay Paky CP Color 400 cmy.spt                              CP_Color400CMY.GS2
+Clay Paky CP Color 400 rgb.spt                              CP_Color400RGB.GS2
+Clay Paky CP Color 575 cmy.spt                              CP_Color575CMY.GS2
+Clay Paky CP Color 575 rgb.spt                              CP_Color575RGB.GS2
+Clay Paky Golden Color 1200 8bit.spt                        CP_GoldenColor1200RGB8.GS2
+Clay Paky Golden Color 1200 16bit.spt                       CP_GoldenColor1200RGB16.GS2
+Clay Paky Golden Scan 2.spt                                 CP_GoldenScan_2.GS2
+Clay Paky Golden Scan 3 575.spt                             CP_GoldenScan_3A.GS2
+Clay Paky Golden Scan 3 1200.spt                            CP_GoldenScan_3_no scroll.GS2
+Clay Paky Golden Scan 3 1200 Expanded.spt                   CP_GoldenScan_3x.GS2
+Clay Paky Golden Scan 4 8bit.spt                            CP_Goldenscan4_8bit.GS2
+Clay Paky Golden Scan 4 16bit.spt                           CP_Goldenscan4_16bit.GS2
+Clay Paky Golden Scan HPE (Scrolling color).spt             CP_GoldenScan_HPE.GS2
+Clay Paky Golden Spot 1200 8bit.spt                         CP_GoldenSpot1200N.GS2
+Clay Paky Golden Spot 1200 16bit.spt                        CP_GoldenSpot1200N_16.GS2
+Clay Paky Miniscan 150.spt                                  CP_MiniScan_150_300.GS2
+Clay Paky Miniscan 300.spt                                  CP_MiniScan_150_300.GS2
+Clay Paky Miniscan HPE 3 8bit.spt                           CP_MiniscanHP3_8 bit.GS
+Clay Paky Miniscan HPE 3 16bit.spt                          CP_MiniscanHP3_16 bit.GS2
+Clay Paky Miniscan HPE (LJ).spt                             CP_MiniScanHPE.GS2
+Clay Paky Pin Scan.spt                                      CP_PinScan.GS2
+Clay Paky Point.spt                                         ClayPaky_Point.GS2
+Clay Paky Point MH 8bit.spt                                 ClayPaky_PointMH_8.GS2
+Clay Paky Point MH 16bit.spt                                ClayPaky_PointMH_16.GS2
+Clay Paky Point IN.spt                                      ClayPaky_PointIn.GS2
+Clay Paky CP PolyColor 1200.spt                             ClayPaky_Polycolor575_1200.GS2
+Clay Paky Rain Spot 575.spt                                 ClayPaky_Rainspot575.GS2
+Clay Paky Stage Color 1200 16-bit.spt                       CP_StageColor1200_16.GS2
+Clay Paky Stage Color 575 16-bit.spt                        CP_StageColor575_16.GS2
+Clay Paky Stage Color 300 16-bit.spt                        CP_StageColor300_16.GS2
+Clay Paky Stage Color 300.spt                               CP_StageColor300_8.GS2
+Clay Paky Stage Light 300 rainbow 16-bit.spt                CP_stageLight300_16.GS2
+Clay Paky Stage Profile+ 16-bit CMY (33 chan.).spt          CP_StageProfile+ CMY 16bit.GS2
+Clay Paky Stage Profile+ 16-bit (31 chan.).spt              CP_StageProfile+ 16bit.GS2
+Clay Paky Stage Profile 1200sv 16-bit.spt                   ClayPaky_StageProfile1200SV_16bit.GS2
+Clay Paky Stage Scan.spt                                    CP_Stage Scan.GS2
+Clay Paky Stage Scan CMY.spt                                CP_Stage Scan CMY.GS2
+Clay Paky Stage Zoom 1200 16-bit.spt                        CP_StageZoom1200_16Bit.GS2
+Clay Paky Stage Zoom 1200.spt                               CP_StageZoom1200_8bit.GS2
+Clay Paky Super Scan MRG.spt                                CP_SuperScanMRG.GS2
+Clay Paky Super Scan Zoom 8-bit.spt                         CP_SuperScanZoom.GS2
+Clay Paky Tiger Scan 1200.spt                               CP_TigerScan_HMI1200.GS2
+CLS-LED PAR 64 RGB.spt                                      CLS_LEDPar64_RGB.GS2
+Coef MP700 Wash DVP.spt                                     Coef_MP700Wash_16 Bit.GS2
+Coef MP250 Fresnel m2(9ch) .spt                             CoefMP250Fresnel9Ch.GS2
+Coemar CF 1200 Hard Edge scroll.spt                         CoemarCF1200HE.GS2
+Coemar CF 1200 scroll.spt                                   Coemar_CF1200_Spot.GS2
+Coemar CF 7 Hard Edge.spt                                   Coemar_CF7HE.GS2
+Coemar CF 7 Wash Zoom.spt                                   Coemar_CF7WZ.GS2
+TAS ColourBeam 200W.spt                                     Coemar_ColorBeam.GS2
+TAS ProSpot 575 16 bit.spt                                  Coemar_TAS_ProSpot_575.GS2
+Coemar ProWash.spt                                          Coemar_ProWash250.GS2
+TAS DigiScan 16 bit.spt                                     Coemar_Digiscan.gs2
+Coemar Fiera 1200.spt                                       Coemar_Fiera1200.GS2
+Coemar Fiera 1200 EB.spt                                    Coemar_Fiera1200EB.GS2
+Coemar Fiera 575 EB.spt                                     Coemar_Fiera575EB.GS2
+Coemar Fiera 575.spt                                        Coemar_Fiera575.GS2
+Coemar iSpot 150.spt                                        Coemar_ISpot.GS2
+Coemar iSpot 575.spt                                        Coemar_ISpot575.GS2
+Coemar Infinity Wash XL16bit (V.3).spt                      Coemar_InfinityWashXL.GS2
+Coemar iSpot 1200 16bit.spt                                 Coemar_iSpot1200_16bit.GS2
+Coemar iSpot 575 EB.spt                                     Coemar_ISpot575_EB.GS2
+Coemar iSpot Flex.spt                                       Coemar_iSpot_Flex.GS2
+Coemar iSpot S 8bit.spt                                     Coemar_iSpotS_8bit.GS2
+Coemar iSpot S 16bit.spt                                    Coemar_iSpotS_16bit.GS2
+Coemar iWash 575 EB.spt                                     Coemar_IWash575_EB.GS2
+Coemar iWash Flex.spt                                       Coemar_IWash Flex.GS2
+Coemar MiniCyc EB.spt                                       Coemar_MiniCycEB.GS2
+Coemar MiniCyc MB.spt                                       Coemar_MiniCycMB.GS2
+Coemar NAT PC 2500 14°-28°.spt                            Coemar NAT PC 2500.GS2
+Coemar NAT TM 1200 16bit.spt                                Coemar Nat TM 1200.GS2
+Coemar NAT TM 1200 DX 16bit.spt                             Coemar NAT TM 1200 DX.GS2
+Coemar NAT TM 1200 DXP 16bit.spt                            Coemar NAT TM 1200 DXP.GS2
+Coemar NAT TM 1200 Power 16bit.spt                          Coemar Nat TM 1200 Power.GS2
+Coemar NAT TM 2500 16bit.spt                                Coemar Nat TM 2500.GS2
+Coemar Panorama LED RGB.spt                                 Coemar_PanoramaLED_RGB.GS2
+Coemar Panorama LED White.spt                               Coemar_PanoramaLED_White.GS2
+Coemar Panorama Power MK2.spt                               Coemar_PanoramaPowerMK2.GS2
+Coemar PARLite LED.spt                                      Coemar_ParLiteLED.GS2
+Coemar ProSpot Lx.spt                                       Coemar_ProSpot250LX.GS2
+Coemar ProWash Lx.spt                                       Coemar_ProWash250LX.GS2
+Coemar ProSpot 150 LX.spt                                   Coemar Pro Spot 150 LX.GS2
+Coemar ProSpot 575 LX.spt                                   Coemar Pro Spot 575 LX - 16 ch.GS2
+Coemar ProWash 575 LX.spt                                   Coemar Pro Wash 575 LX - 16 ch.GS2
+Coemar Panorama SuperCyc 2400.spt                           Coemar Super Cyc 2.4.GS2
+Coemar SuperCyc MK2 EB (11 cha).spt                         Coemar_SuperCyc_MK2EB_11ch.GS2
+Coemar SuperCyc MK2 EB (12 cha).spt                         Coemar_SuperCyc_MK2EB_12ch.GS2
+ColorKinetics C200.spt                                      Color Kinetics_C-200.GS2
+ColorKinetics C30.spt                                       Color Kinetics_C-30.GS2
+ColorKinetics C75.spt                                       Color Kinetics_C-75.GS2
+Diversitronics DK-2000.spt                                  Diversitronics_DK2000.GS2
+Diversitronics OD DK-56Q.spt                                Diversitronics_OD-DK-56Q.GS2
+DTS ARC 1200 (10 cha.).spt                                  DTS_ARC1200_10cha.GS2
+DTS ARC 1200 (6 cha.).spt                                   DTS_ARC1200_6cha.GS2
+DTS ARC 250.spt                                             DTS ARC 250.spt
+DTS ARC 400.spt                                             DTS_ARC400.GS2
+DTS ARC 575 (8 cha.).spt                                    DTS_ARC575.GS2
+DTS Delta B Full Color.spt                                  DTS_DeltaB.GS2
+DTS Delta R TriLED.spt                                      DTS_DeltaR.GS2
+DTS XM 1200 Spot 16bit (18 cha.).spt                        DTS_XM1200Spot_18ch.GS2
+DTS XM 1200 Spot 16bit.spt                                  DTS_XM1200Spot.GS2
+DTS XR250 Spot 16bit (14 cha.).spt                          DTS_XR250Spot.GS2
+DTS XR250 Wash 16bit (10 cha.).spt                          DTS_XR250Wash_10ch.GS2
+DTS XR250 Wash 16bit (16 cha.).spt                          DTS_XR250Wash_16ch.GS2
+DTS XR250 Wash 8bit (8 cha.).spt                            DTS_XR250Wash_8ch.GS2
+DTS XR5 Wash 16bit (16 cha.).spt                            DTS_XR5_Wash.GS2
+DTS XR7 Spot 16bit (10 cha.).spt                            DTS_XR7Spot_10 ch.GS2
+DTS XR7 Spot 16bit (16 cha.).spt                            DTS_XR7Spot_16 ch.GS2
+DTS XR7 Wash 16bit (16 cha.).spt                            DTS_XR7W.GS2
+DTS XR8 Spot 16bit (16 cha.).spt                            DTS_XR8_spot.GS2
+DTS XR8 Spot 16bit (20 cha.).spt                            DTS_XR8_spot_20ch.GS2
+DTS XR8 Wash 16bit (16 cha.).spt                            DTS_XR8_Wash.GS2
+DTS XR9 Spot 16bit (18 cha.).spt                            DTS_XR9Spot_18ch.GS2
+DTS XR9 Spot 16bit (26 cha.).spt                            DTS_XR9Spot_26ch.GS2
+Elation ActiveScan 250.spt                                  Elation_ActiveScan250.GS2
+Elation ActiveWave 250.spt                                  Elation_ActiveWave250.GS2
+Elation ColorSpot 150R m1.spt                               Elation_CS_150R.GS2
+Elation ColorSpot 150S m1.spt                               Elation_CS_150S_M1.GS2
+Elation ColorSpot 250 16bit.spt                             Elation_CS_250.GS2
+Elation Design LED 36 (3 cha).spt                           Elation_DesignLED36_3cha.GS2
+Elation Design LED 36 (6 cha).spt                           Elation_DesignLED36_6cha.GS2
+Elation Design LED 36 MH 8bit.spt                           Elation_DesignLED36MH_10cha.GS2
+Elation Design LED 36 MH 16bit.spt                          Elation_DesignLED36MH_12cha.GS2
+Elation Design LED 36UV (1 cha).spt                         Elation_DesignLED36UV_1cha.GS2
+Elation Design LED 36UV (3 cha).spt                         Elation_DesignLED36UV_3cha.GS2
+Elation Design LED 36WA (2 cha).spt                         Elation_DesignLED36WA_2cha.GS2
+Elation Design LED 36WA (5 cha).spt                         Elation_DesignLED36WA_5cha.GS2
+Elation Design LED 60 Strip (6 cha).spt                     Elation_DLED60_Strip_6ch.GS2
+Elation Design LED 60 Strip WA (2 cha).spt                  Elation_DLED60_StripWA_2ch.GS2
+Elation Design LED 60 Strip WA (4 cha).spt                  Elation_DLED60_StripWA_4ch.GS2
+Elation Design PAR 575H 16bit (Pan 630).spt                 Elation_DesignPAR575H.GS2
+Elation DesignSpot 250 16bit (Pan 630).spt                  Elation_DesignSpot250.GS2
+Elation DesignWash 250 16bit (Pan 630).spt                  Elation_DesignWash250.GS2
+Elation EasyColor 16bit.spt                                 Elation_Easycolor_16 bit.GS2
+Elation EasyColor 8bit.spt                                  Elation_Easycolor_8 bit.GS2
+Elation ELAR ExFlood (3 cha).spt                            Elation_ElarExFlood_3ch.GS2
+Elation ELAR ExFlood (5 cha).spt                            Elation_ElarExFlood_5ch.GS2
+Elation ELAR ExPAR (3 cha).spt                              Elation_ElarExPAR_3ch.GS2
+Elation ELAR ExPAR (5 cha).spt                              Elation_ElarExPAR_5ch.GS2
+Elation FocusSpot 250.spt                                   Elation_FocusSpot250.GS2
+Elation Impression (Compressed).spt                         Elation_Impression_10ch.GS2
+Elation Impression (Normal).spt                             Elation_Impression_14ch.GS2
+GLP Joy 150.spt                                             Elation_Joy150.GS2
+GLP Joy 300.spt                                             Elation_Joy300.GS2
+Elation Opti 30 RGB (1 cha).spt                             Elation_Opti30RGB_1ch.GS2
+Elation Opti 30 RGB (2 cha).spt                             Elation_Opti30RGB_2ch.GS2
+Elation Opti 30 RGB (3 cha).spt                             Elation_Opti30RGB_3ch.GS2
+Elation Opti 30 RGB (4 cha).spt                             Elation_Opti30RGB_4ch.GS2
+Elation Opti 30 RGB (6 cha).spt                             Elation_Opti30RGB_6ch.GS2
+Elation Opti 30 RGB (7 cha).spt                             Elation_Opti30RGB_7ch.GS2
+Elation Opti RGB.spt                                        Elation_OptiRGB.GS2
+Elation PowerSpot 250.spt                                   Elation_Powerspot_250_16 bit.GS2
+Elation PowerSpot 575.spt                                   Elation_PowerSpot575_16Bit.GS2
+Elation PowerWash 250.spt                                   Elation_PowerWash_250_16 bit.GS2
+Elation Protron Color.spt                                   Elation_ProtronColor.GS2
+Elation Protron Star.spt                                    Elation_ProtronStar.GS2
+Elation StageColor.spt                                      ElationStageColor_RGBmode.GS2
+Elation StageColor LED.spt                                  Elation_StageColorLED.GS2
+Elation Trackpod 84 (4 cha).spt                             Elation_Trackpod84_4ch.GS2
+Elation Trackpod 84 (7 cha).spt                             Elation_Trackpod84_7ch.GS2
+Elation Vision Color 250.spt                                Elation_VisionColor250.GS2
+Elation Vision Scan 250 16bit.spt                           Elation_VisionScan250.GS2
+Elation Vision Scan 575 16bit.spt                           Elation_VisionScan575.GS2
+Elation Waterfall 250 Pro.spt                               Elation_Waterfall250Pro.GS2
+Elektralite MY250 (V1.12).spt                               Elektralite_my250.GS2
+Elektralite MY575.2 (V2.05).spt                             Elekralite_my575.2.GS2
+Elektralite MY575w (V2.05).spt                              Elekralite_My575w.GS2
+ETC S4 Revolution (14 chan. Rotating).spt                   ETC_S4_Revolution(14 chan).GS2
+ETC S4 Revolution (23 chan. Rotating).spt                   ETC_S4_Revolution(23 chan).GS2
+ETC S4 Revolution (31 chan. Rotating).spt                   ETC_S4_Revolution(31 chan).GS2
+ETC Source Four 750w 26 degree+SeaChanger (4 ch, Int.).spt  ETC_S4_SeaChanger_Int_4ch.GS2
+ETC Source Four 750w 26 degree+SeaChanger (6 ch, Int.).spt  ETC_S4_SeaChanger_Int_6ch.GS2
+ETC Audiovisuel PigiS 700.spt                               ETCAudiovisuel_PigiS.GS2
+Eurolite LED Floodlight 252 RGB.spt                         Eurolite_LED_Floodlight_252RGB.GS2
+Eurolite LED PAR 56.spt                                     Eurolite_LED_PAR56.GS2
+Eurolite LED PAR 56 (V.1.2).spt                             Eurolite_LED_PAR56_V1.2.GS2
+Eurolite LED PAR 56, 10mm.spt                               Eurolite_LED_PAR56_10mm.GS2
+Eurolite LED PAR 64, 10mm.spt                               Eurolite_LED_PAR64_10mm.GS2
+Eurolite TMH-155 (V. 2.4) 16bit.spt                         Eurolite_TMH155_16bit.GS2
+Eurolite TS-150.spt                                         Eurolite_TS-150.GS2
+Eurolite TS-255.spt                                         Eurolite TS-255.GS2
+EVL ProScan 250 (V 3.2 MSR).spt                             EVL_ProScan_150250D_V32.GS2
+EVL ProScan 250 (V 3.3 MSR).spt                             EVL_ProScan_150250D_V33.GS2
+EVL ProScan 250 (V 3.2 Halogen).spt                         EVL_ProScan_150250H_V32.GS2
+EVL ProScan 250 (V 3.3 Halogen).spt                         EVL_ProScan_150250H_V33.GS2
+EVL ProSpot 250.spt                                         EVL_ProSpot250.GS2
+FAL Roulette 575.spt                                        FAL_Roulette 575.GS2
+FAL ThreeSixty 1200 FX 16bit.spt                            FAL_ThreeSixty1200FX_16bit.GS2
+FAL ThreeSixty 1200 Pro 16bit.spt                           FAL_ThreeSixty1200 Pro_16bit.GS2
+FAL ThreeSixty 4 16bit.spt                                  FAL ThreeSixty 4 16bit.spt
+FutureLight DF-250 col.spt                                  Futurelight_DF250.GS2
+FutureLight DJ-Head 250 Spot 16 Bit.spt                     Futurelight_DJHead250S.GS2
+FutureLight  DJScan 200.spt                                 Futurelight DJScan 200.GS2
+FutureLight  DJScan 250.spt                                 Futurelight DJScan 250.GS2
+FutureLight  DJScan 575.spt                                 Futurelight DJScan 575.GS2
+FutureLight  DJScan 600.spt                                 FutureLight_DJScan600.GS2
+FutureLight Evo Color 250.spt                               Futurelight_EvoColor250.GS2
+FutureLight Evo Water.spt                                   Futurelight_EvoWater.GS2
+FutureLight EYE 18 16bit.spt                                Futurelight_Eye18.GS2
+FutureLight EYE 36 16bit.spt                                Futurelight_Eye36.GS2
+FutureLight MH-640 16 Bit.spt                               Futurelight-MH640.GS2
+FutureLight MH-660 16 Bit.spt                               Futurelight-MH660.GS2
+FutureLight MH-680 16 Bit.spt                               Futurelight MH-680 - 16 bit.GS2
+FutureLight MH-840 16 Bit.spt                               Futurelight MH-840 - 16 bit.GS2
+FutureLight MH-860 16 Bit.spt                               Future_Light_MH-860.GS2
+FutureLight PCC-1200 Pro.spt                                Futurelight_PCC1200Pro.GS2
+FutureLight PCC-250 CMY Pro.spt                             Futurelight_PCC250CMY.GS2
+FutureLight PHP-575E 16 Bit (Pan 630).spt                   Futurelight_PHP575E.GS2
+FutureLight PHP-600 16 Bit (Pan 630).spt                    Futurelight_PHP600.GS2
+FutureLight PHS-150 16bit.spt                               Futurelight_PHS150_16 bit.GS2
+FutureLight PHS-150 8bit.spt                                Futurelight_PHS150_8 bit.GS2
+FutureLight PHS-200 8 Bit.spt                               Futurelight PHS-200 8-bit.GS2
+FutureLight PHS-220 16bit.spt                               Futurelight_PHS220_16bit.GS2
+FutureLight PHS-250 16 Bit.spt                              Futurelight-PHS250.GS2
+FutureLight PHS-250 16 Bit (V. 2.4).spt                     Futurelight-PHS250_V23.GS2
+FutureLight PHS-260 16 Bit.spt                              Futurelight PHS-260 16 bit.GS2
+FutureLight PHS-700 (Dimmer normal) 16 Bit.spt              Futurelight_PHS700_16 Bit.GS2
+FutureLight PHW-250 (14 chan.).spt                          Futurelight PHW-250 - 16 bit.GS2
+FutureLight PHW-260 16 Bit.spt                              Futurelight_PHW-260.GS2
+FutureLight PHW-700 16 Bit.spt                              Futurelight_PHW-700_16 bit.GS2
+FutureLight PSC-575 16Bit.spt                               Futurelight_PSC575_16 bit.GS2
+FutureLight PSC-575 8Bit.spt                                Futurelight_PSC575_8 bit.GS2
+FutureLight SC-380.spt                                      Futurelight-SC250.GS2
+FutureLight SC-250.spt                                      Futurelight-SC250.GS2
+FutureLight SC-375.spt                                      Futurelight-SC375.GS2
+FutureLight SC-570 16 Bit.spt                               FutureLight-SC570.GS2
+FutureLight SC-780 16bit.spt                                FutureLight-SC780.GS2
+FutureLight H-250 MKS.spt                                   Futurelight H-250 MKS.GS2
+Blacklight_36W.spt                                          Generic_Blacklight_36W.GS2
+Video Panel 3m x 4m (Intensity).spt                         Generic_VideoPanel_Intensity.GS2
+Video Panel 6m x 9m.spt                                     Generic_VideoPanel_RGB.GS2
+Geni Color Blaster.spt                                      Geni Color Blaster 250.GS2
+Geni Giga Strobe.spt                                        Geni Giga Strobe.GS2
+Geni Mojo Colour.spt                                        Geni Mojo Colour.GS2
+Geni Mojo Scan III.spt                                      Geni_Mojo_Scan3.GS2
+Geni MOS-300.spt                                            Geni_MOS-300.GS2
+Geni MOS-700.spt                                            Geni_MOS-700.GS2
+Geni Nimbus2.spt                                            Geni Nimbus 2.GS2
+Geni OBY-2000 Outline 16 bit.spt                            Geni_OBY2000_Outline.GS2
+Geni OBY-2000 Wash 16 bit.spt                               Geni_OBY2000_Wash.GS2
+Geni OBY-600 Wash.spt                                       Geni_OBY600_16 bit.GS2
+Geni OBY-3.spt                                              Geni_OBY-3.GS2
+Geni OBY-5.spt                                              Geni_OBY-5.GS2
+Geni Shiva.spt                                              Geni_Shiva200-250_2.GS2
+Geni Shiva_200-rv14 (1).spt                                 Geni_Shiva200R-250R.GS2
+Geni Spyro Color.spt                                        Geni Spyro 250 Color.GS2
+Geni Spyro.spt                                              Geni Spyro 250.GS2
+Geni Stratus 5X.spt                                         Geni_Stratus5X.GS2
+Genius MotorSpot.spt                                        Genius Motor Spot.GS2
+Genius MotorSpot V.2.spt                                    Genius Motor Spot V.2.GS2
+Genius NextScan 150.spt                                     Genius NextScan 150.GS2
+Genius NextScan 250.spt                                     Genius NextScan 250.GS2
+GLP ColorWay 1800.spt                                       GLP_ColorWay1800.GS2 
+GLP Impression (Basic).spt                                  GLP_Impression_10ch.GS2
+GLP Impression (High Resolution).spt                        GLP_Impression_13ch.GS2
+GLP Impression (Normal).spt                                 GLP_Impression_14ch.GS2
+GLP Joy 150.spt                                             GLP_Joy150.GS2
+GLP Joy 300.spt                                             GLP_Joy300.GS2
+GLP JuniorColor.spt                                         GLP_JuniorColor.GS2
+GLP JuniorScan2.spt                                         GLP_JuniorScan2.GS2
+GLP Max 250.spt                                             GLP_MAX_250_ELC.GS2
+GLP MightyScan.spt                                          GLP-AJD-MightyScan.GS2
+GLP Patend 1200.spt                                         GLP Patend Light.GS2
+GLP PocketScan.spt                                          GLP_PocketScan.GS2
+GLP YPOC 250 Laser.spt                                      GLP Ypoc 250.GS2
+GLP YPOC 250.spt                                            GLP Ypoc250.GS2
+GLP YPOC Basic 250.spt                                      GLP Ypoc 250 basic.GS2
+GLP YPOC 250 Color.spt                                      GLP_YpocColor_16 bit.GS2
+GLP YPOC 700.spt                                            GLP_YPOC700_16bit.GS2
+GLP YPOC 700 CMY.spt                                        GLP_YPOC700_CMY_16bit.GS2
+Griven Acrobat PE250 8bit.spt                               Griven Acrobat250peB.GS2
+Griven Deck.spt                                             Griven_Deck.GS2
+Griven Kaleido 575.spt                                      Griven_Kaleido.gs2
+Griven Kolorado 1800.spt                                    Griven Kolorado MK2-1800.GS2
+Griven Kolorado 2500.spt                                    Griven_Kolorado MK2 2500.GS2
+Griven KolorGlobe 4000.spt                                  Griven KolorGlobe 4K.GS2
+Griven KolorJet 4000.spt                                    Griven KolorJet 4K.GS2
+Griven KolorStream 2500.spt                                 GRIVEN Kolorstream.GS2
+Griven PopScan 575 16bit.spt                                Griven Popscan575 16bit.GS2
+Griven PopScan 575 8bit.spt                                 Griven Popscan 575 8 bit.GS2
+Griven Risalto 150.spt                                      Griven Risalto.GS2
+HighEnd C-16.spt                                            HES_C-16.GS2
+HighEnd Dataflash AF 1000.spt                               HES_AF1000.GS2
+HighEnd Color Pro Classic.spt                               HES Color Pro Classic.GS2
+HighEnd ColorPro HX Enhanced Mode.spt                       HES Color Pro FX Enh.GS2
+HighEnd ColorCommand 800.spt                                HES_ColorCommand.GS2
+HighEnd Cyberlight.spt                                      HES_CyberLight_CL_SV.GS2
+HighEnd Cyberlight CX.spt                                   HES_CyberLight_CX.GS2
+HighEnd DL1 Standard.spt                                    HES_DL1.GS2
+HighEnd DL1 Enhanced.spt                                    HES_DL1_Digital_Eye.GS2
+HighEnd EC-2 150.spt                                        HES_EC2.GS2
+HighEnd EC-2 250.spt                                        HES_EC2.GS2
+HighEnd EC-1.spt                                            HES_EC1.GS2
+HighEnd ES-1.spt                                            HES_ES1.GS2
+HighEnd Intellabeam 13 ch.spt                               HES_Intellabeam13.GS2
+HighEnd Intellabeam 8 ch v3.spt                             HES_Intellabeam8.GS2
+HighEnd Studio Color 575-S.spt                              HES_StudioColor575.GS2
+HighEnd PowerScan 150R.spt                                  PowerScan150R.GS2
+HighEnd PowerScan 250.spt                                   PowerScan250.GS2
+HighEnd PowerScan 250R.spt                                  PowerScan250R.GS2
+HighEnd SHOWGUN.spt                                         HES_Showgun.GS2
+HighEnd Studio Beam.spt                                     HES_StudiobeamPC.GS2
+HighEnd Studio Beam PureMix.spt                             HES_StudiobeamPC_PureMix.GS2
+HighEnd Studio Color 250.spt                                HES_StudioColor250.GS2
+HighEnd Studio Command.spt                                  HES_StudioCommand.GS2
+HighEnd Studio Command-H.spt                                HES_StudioCommand-H.GS2
+HighEnd Studio Spot 250.spt                                 HES_StudioSpot250.GS2
+HighEnd Studio Spot 575.spt                                 HES_StudioSpot575.GS2
+HighEnd Studio Spot 575 CYM.spt                             HES_StudioSpot575CMY.GS2
+HighEnd Technobeam Full (Rotating).spt                      HES_Technobeam.GS2
+HighEnd Technobeam Iris Full.spt                            HES_Technobeam Iris.GS2
+HighEnd Trackspot HiRes.spt                                 HES_TrackSpotHi.GS2
+HighEnd Trackspot.spt                                       HES_TrackSpotLo.GS2
+HighEnd Trackspot 2 Reduced (8ch).spt                       HES_Trackspot2 (Reduced).GS2
+HighEnd Trackspot 2 Standard (9ch).spt                      HES_Trackspot2 (Standard).GS2
+HighEnd X-Spot Reduced (28 cha).spt                         HES_Xspot_Reduced.GS2
+HighEnd X-Spot.spt                                          HES_Xspot-1.GS2
+HQ Power City Colour 150 (ICYM).spt                         HQPower_CityColour150 (old version).GS2
+HQ Power City Colour 150 (MYCI).spt                         HQPower_CityColour150.GS2
+HQ Power Exciter 250.spt                                    HQ_exciter_250.GS2
+HQ Power Galaxy 250.spt                                     HQ-Power Galaxy250.GS2
+Irideon AR500 Diffuser.spt                                  Irideon_AR500_Diffuser.GS2
+Irideon AR500 dimmer.spt                                    Irideon_AR500_Dimmer.GS2
+JB VaryColor 2000.spt                                       JB_Varycolor_2000.GS2
+JB VaryColor 6 575 16bit.spt                                JB Varycolor 6, 16 bit.GS2
+JB VaryColor 7 (HOG Mode).spt                               JB_Varycolor_7 (HOGmode).GS2
+JB VaryColor 7 (JB Mode).spt                                JB_Varycolor_7 (JBmode).GS2
+JB VaryColor Micro150 16bit.spt                             JB Varycolor Micro 150 HTI 16 bit.GS2
+JB VaryColor P3 (HOG Mode).spt                              JB_VaryColor_P3_HOGmode.GS2
+JB VaryColor P3 (JB Mode).spt                               JB_VaryColor_P3_JBmode.GS2
+JB VaryColor P6 (HOG Mode).spt                              JB_Varycolor_P6 (HOGmode).GS2
+JB VaryColor P6 (JB Mode).spt                               JB_Varycolor_P6 (JBmode).GS2
+JB VaryLED 3-84 (HOG Mode).spt                              JB_VaryLED3-84 (HOGmode).GS2
+JB VaryLED 3-84 (JB Mode).spt                               JB_VaryLED3-84 (JBmode).GS2
+JB VaryScan3 Special.spt                                    JB Varyscan 3 Special - 8 ch.GS2
+JB VaryScan3 Special+.spt                                   JB Varyscan 3 Special Plus - 8 ch.GS2
+JB VaryScan4 (8 cha).spt                                    JB Varyscan 4 1200 HMI.GS2
+JB VaryScan4 Compact+.spt                                   JB-VaryScan4CP_575.GS2
+JB VaryScan4 EV.spt                                         JB Varyscan 4 EV 1200.GS2
+JB VaryScan5 MV.spt                                         JB Varyscan 5 MV 1200.GS2
+JB VaryScan6 575 16bit.spt                                  JB Varyscan 6, 16 bit.GS2
+JB VaryScan 7.spt                                           JB-Lighting_Varyscan7.GS2
+JB VaryScan Micro150 16bit.spt                              JB Varyscan Micro 150 HTI 16 bit.GS2
+JB VaryScan Micro150+ 16bit.spt                             JB Varyscan Micro Plus 150 HTI 16 bit.GS2
+JB VaryScan P2 (HOG Mode).spt                               JB-Lighting_VaryscanP2_HOGmode.GS2
+JB VaryScan P2 (JB Mode).spt                                JB-Lighting_VaryscanP2_JBmode.GS2
+JB VaryScan P3 (HOG Mode).spt                               JB-Lighting_VaryscanP3 (HOGmode).GS2
+JB VaryScan P3 (JB Mode).spt                                JB-Lighting_VaryscanP3 (JBmode).GS2
+JB VaryScan P6.spt                                          JB-Lighting_VaryscanP6.GS2
+JB Systems Dualscan (Part 1).spt                            JBSystems_DualScan-1.GS2
+JB Systems Dualscan (Part 2).spt                            JBSystems_DualScan-2.GS2
+JB Systems Dynamo.spt                                       JBSystems_Dynamo.GS2
+JB Systems IC-4.spt                                         JBSystems_iColor4.GS2
+JB Systems iRock 7B.spt                                     JBSystems_iROCK7B.GS2
+JB Systems iRock 7S.spt                                     JBSystems_iROCK7S.GS2
+JB Systems Spot Knight.spt                                  JBSystems_SpotKnight.GS2
+JB Systems TDerby 500W.spt                                  JBSystems_TDerby_500W.GS2
+JB Systems The Rover.spt                                    JBSystems_TheRover.GS2
+JB Systems Winner II (5 Cha).spt                            JBSystems_TheWinner2.GS2
+JB Systems Winner.spt                                       JBSystems_Winner.GS2
+Lasercom ColorSky.spt                                       Lasercom_ColorSky.GS2
+LEDJ LED 56 Can.spt                                         LEDJ_LED56Can.GS2
+LEDJ LED 64 Can.spt                                         LEDJ_LED64Can.GS2
+Light Sky MAX 1000C 16bit.spt                               LightSky_MAX1000C.GS2
+Light Sky MAX 2000 16bit.spt                                LightSky_MAX2000.GS2
+Light Sky MAX 2000C 16bit.spt                               LightSky_MAX2000C.GS2
+Light Sky MAX 2001C 16bit.spt                               LightSky_MAX2001C.GS2
+Light Sky MAX 3000 16bit.spt                                LightSky_MAX3000.GS2
+Light Sky MH-8857.spt                                       LightSky_MH8857.GS2
+Light Star Future Pro 500.spt                               Lightstar_FuturePro500.GS2
+Lytequest MotorHead.spt                                     LyteQuest_Motorhead.GS2
+MAD Color 211A Wide.spt                                     MAD_Color211.GS2
+MAD Scan.spt                                                MAD_Scan.GS2
+MAD Scan 305HP.spt                                          MAD_Scan 305HP.GS2
+MAD QColor AM.spt                                           MAD_QColor.GS2
+MAD QScan AM.spt                                            MAD_Qscan.GS2
+MAD QScanR.spt                                              MAD_QscanR.GS2
+Martin Atomic 3000 Color 4ch(no fan).spt                    Martin_AtomicColors_5ch.GS2
+Martin Cyclo IP65 02.spt                                    Martin_Cyclo_IP65_02.GS2
+Martin EgoX4.spt                                            Martin_EgoX4.GS2
+Martin Exterior 200 LED RGB.spt                             Martin_Exterior200LED_RGB.GS2
+Martin Mac 250 Entour 16bit Ex.spt                          Martin_MAC250_Entour_16ex.GS2
+Martin Mac 250 Krypton 16bit ext.spt                        Martin_MAC250_Krypton_16ex.GS2
+Martin Mac 250 Wash 16bit Ex.spt                            Martin_MAC250Wash_16ex.GS2
+Martin Mac 550 16bit Ex.spt                                 Martin_MAC550_16ex.GS2
+Martin Mac 575 Krypton 16bit Ex.spt                         Martin_MAC575Krypton_16ex.GS2
+Martin Mac 575 Krypton 16bit.spt                            Martin_MAC575Krypton_16Basic.GS2
+Martin Mac 700 Profile 16bit Ex.spt                         Martin_MAC700Profile_16ex.GS2
+Martin Mac 700 Wash 16bit.spt                               Martin_MAC700Wash_16.GS2
+Martin Mac 700 Wash 16bit Ex.spt                            Martin_MAC700Wash_16ex.GS2
+Martin Mac TW1 16bit Ex.spt                                 Martin_MACTW1_16ex.GS2
+Martin Mania EFX 600 Mode 1.spt                             Martin_EFX600_M1.GS2
+Martin Mania EFX 600 Mode 2.spt                             Martin_EFX600_M2.GS2
+Martin Mania EFX 700 Mode 2.spt                             Martin_EFX700_M2.GS2
+Martin Mania EFX 800 Mode 2.spt                             Martin_EFX800_M2.GS2
+Martin Mania SCX 500 Mode 1.spt                             Martin_SCX500_M2.GS2
+Martin Mania SCX 600 Mode 1.spt                             Martin_SCX600_M1.GS2
+Martin Mania SCX 600 Mode 2.spt                             Martin_SCX600_M2.GS2
+Martin Mania SCX 700 Mode 1.spt                             Martin_SCX700_M1.GS2
+Martin Mania SCX 700 Mode 2.spt                             Martin_SCX700_M2.GS2
+Martin Robocolor 200 MSD Reduced.spt                        Martin_ColorMSD Reduced.GS2
+Martin Punisher.spt                                         Martin_Punisher X 250 (6 chan).GS2
+Martin Robocolor 200 MSD Full.spt                           Martin_ColorMSD.GS2
+Martin Roboscan 1020 Reduced.spt                            Martin_Roboscan1020.GS2
+Martin Roboscan Pro 518 Mode 1.spt                          Martin Pro Roboscan 518 Mode 1.GS2
+Martin smartMAC 8bit.spt                                    Martin_smartMAC_8bit.GS2
+Martin smartMAC 16bit.spt                                   Martin_smartMAC_16bit.GS2
+Martin Starflash III.spt                                    Martin_Starflash_W_300W.GS2
+Martin Wizard Extreme.spt                                   Martin_Wizard_Extreme(11 chan).GS2
+MediaLas Spooky Blue V2.spt                                 Medialas_SB.GS2
+Microh LED Bar.spt                                          Microh_LEDBar.GS2
+Microh LED P38.spt                                          Microh_LEDP38.GS2
+Morpheus ColorFader (LJ).spt                                Morpheus Colorfader.GS2
+Movitec SL 250.spt                                          Movitec_SL250.GS2
+Movitec SL 575.spt                                          Movitec_SL575.GS2
+Movitec WL 250.spt                                          Movitec_WL250.GS2
+Movitec WL 575.spt                                          Movitec_WL575.GS2
+NJD Datamoon.spt                                            NJD Datamoon.GS2
+NJD Quasar HX (4 chan.).spt                                 NJD_QuasarHX_4Channel.GS2
+NJD Quasar HX (8 chan. Position).spt                        NJD_QuasarHX_8Channel.GS2
+Optima Matrix 300.spt                                       Optima Matrix-300.GS2
+Osiris Orus 1200 Spot 16bit.spt                             Osiris_Orus_1200_Spot.GS2
+Osiris Orus 1200 Wash 16bit.spt                             Osiris_Orus_1200_Wash.GS2
+FT-630 Color Picker LED Wash.spt                            Other_FT-630.GS2
+PR Design 150.spt                                           PR Design 150.GS2
+PR Mega Color 2000 16 bit.spt                               PR_MegaColor2000_16bit.GS2
+PR Mega Color 2000 8 bit.spt                                PR_MegaColor2000_8bit.GS2
+PR Mega Color 4000 16 bit.spt                               PR_MegaColor4000_16bit.GS2
+PR Mega Color 4000 8 bit.spt                                PR_MegaColor4000_8bit.GS2
+PR Pilot 150.spt                                            PR  Pilot 150 - 16 bit.GS2
+PR Pilot 250.spt                                            PR  Pilot 250 - 16bit.GS2
+PR Pilot 300.spt                                            PR  Pilot 300 - 16 bit.GS2
+PR Pilot 575.spt                                            PR Pilot575.GS2
+PR Pilot Wash 250.spt                                       PR  Pilot Wash - 16 bit.GS2
+PR Pilot Wash 575.spt                                       PR_Pilot-575_Wash.GS2
+PR Solo 250.spt                                             PR_Solo250.GS2
+PR XL 1200.spt                                              PR_XL1200.GS2
+PR XL 575.spt                                               PR_XL575.GS2
+PR XL 700.spt                                               PR_XL700.GS2
+PR XL Wash 1200.spt                                         PR_XLWash1200.GS2
+PR XL Wash 700.spt                                          PR_XLWash700.GS2
+PROEL Bug Tube PAR 64 16bit.spt                             Proel_BugTube_PAR64.GS2
+PROEL Dreamlight 250 Spot 16bit.spt                         Proel_Dreamlight_250_Devil_16bit.GS2
+PROEL Dreamlight 250 Spot 8bit.spt                          Proel_Dreamlight_250_Devil_08bit.GS2
+PROEL Dreamlight 575 Eclipse Spot 16bit.spt                 Proel_Dreamlight575_EclipseSpot_16bit.GS2
+PROEL Dreamlight 575 Eclipse Wash 16bit.spt                 Proel_Dreamlight575_EclipseWash_16bit.GS2
+PROEL LED Moving Head 8bit.spt                              Proel_LED_MH_8bit.GS2
+PROEL LED Moving Head 16bit.spt                             Proel_LED_MH_16bit.GS2
+PROEL Tarkus 575 Spot.spt                                   Proel_Tarkus_575_spot_8bit.GS2
+PROEL Tarkus 575 Wash.spt                                   Proel_Tarkus_575Wash_8bit.GS2
+Robe Beam 250xt.spt                                         Robe_Beam250XT.GS2
+Robe ClubScan 150ct (Pan 187 deg).spt                       Robe_ClubScan150CT.GS2
+Robe ClubScan 250ct (Pan 187 deg).spt                       Robe_ClubScan250CT.GS2
+Robe ClubSpot 160ct m1.spt                                  Robe_ClubSpot160ct_m1.GS2
+Robe ClubSpot 160ct m2.spt                                  Robe_ClubSpot160ct_m2.GS2
+Robe ClubSpot 160ct m3.spt                                  Robe_ClubSpot160ct_m3.GS2
+Robe ClubSpot 160ct m4.spt                                  Robe_ClubSpot160ct_m4.GS2
+Robe ClubSpot 250ct 16bit.spt                               RobeClubSpot250CT_16 bit.GS2
+Robe ClubSpot 250ct 8bit.spt                                RobeClubSpot250CT_8bit.GS2
+Robe ClubSpot 300ct m1.spt                                  Robe_ClubSpot300ct_m1.GS2
+Robe ClubSpot 500ct 8bit.spt                                Robe_ClubSpot300ct_8bit.GS2
+Robe ClubSpot 500ct m1.spt                                  Robe_ClubSpot500CT_m1.GS2
+Robe ClubSpot 500ct m2.spt                                  Robe_ClubSpot500CT_m2.GS2
+Robe ClubSpot 600ct 8bit.spt                                Robe_ClubSpot600CT_8bit.GS2
+Robe ClubSpot 600ct m1.spt                                  Robe_ClubSpot600CT_m1.GS2
+Robe ClubSpot 600ct m2.spt                                  Robe_ClubSpot600CT_m2.GS2
+Robe ClubWash 250ct 16bit.spt                               RobeClubWash250CT_16 bit.GS2
+Robe ClubWash 250ct 8bit.spt                                RobeClubWash250CT_8bit.GS2
+Robe ClubWash 300ct 8bit.spt                                Robe_ClubWash300CT_8bit.GS2
+Robe ClubWash 300ct m1.spt                                  Robe_ClubWash300CT_m1.GS2
+Robe ClubWash 300ct m2.spt                                  Robe_ClubWash300CT_m2.GS2
+Robe ClubWash 500ct 8bit.spt                                Robe_ClubWash500CT_8bit.GS2
+Robe ClubWash 500ct m1.spt                                  Robe_ClubWash500CT_m1.GS2
+Robe ClubWash 500ct m2.spt                                  Robe_ClubWash500CT_m2.GS2
+Robe ClubWash 600ct 8bit.spt                                Robe_ClubWash600CT_8bit.GS2
+Robe ClubWash 600ct m1.spt                                  Robe_ClubWash600CT_m1.GS2
+Robe ClubWash 600ct m2.spt                                  Robe_ClubWash600CT_m2.GS2
+Robe Ecolor 250xt.spt                                       Robe Ecolor 250xt.GS2
+Robe ColorMix 150at Profile.spt                             Robe_ColorMix150ATProfile.GS2
+Robe ColorMix 150at Wash.spt                                Robe_ColorMix150ATWash.GS2
+Robe ColorMix 240at  m1.spt                                 Robe_ColorMix240AT_M1.GS2
+Robe ColorMix 240at  m2.spt                                 Robe_ColorMix240AT_M2.GS2
+Robe ColorMix 250at  m1.spt                                 Robe_ColorMix250AT_M1.GS2
+Robe ColorMix 250at  m2.spt                                 Robe_ColorMix250AT_M2.GS2
+Robe ColorMix 550at  m1.spt                                 Robe_ColorMix550AT_M1.GS2
+Robe ColorMix 550at  m2.spt                                 Robe_ColorMix550AT_M2.GS2
+Robe ColorMix 575at  m1.spt                                 Robe_ColorMix575AT_M1.GS2
+Robe ColorMix 575at  m2.spt                                 Robe_ColorMix575AT_M2.GS2
+Robe ColorSpot 1200at  m1.spt                               Robe_Colorspot1200AT_mode 1.GS2
+Robe ColorSpot 1200at  m2.spt                               Robe_Colorspot1200AT_mode 2.GS2
+Robe ColorSpot 1200at  m3.spt                               Robe_Colorspot1200AT_mode 3.GS2
+Robe ColorSpot 170at  m1.spt                                Robe_Colorspot170AT_mode1.GS2
+Robe ColorSpot 170at  m2.spt                                Robe_Colorspot170AT_mode2.GS2
+Robe ColorSpot 170at  m3.spt                                Robe_Colorspot170AT_mode3.GS2
+Robe ColorSpot 170at  m4.spt                                Robe_Colorspot170AT_mode4.GS2
+Robe ColorSpot 250at  m1.spt                                Robe_ColorSpot_250AT_Mode 1.GS2
+Robe ColorSpot 250at  m2.spt                                Robe_ColorSpot_250AT_Mode 2.GS2
+Robe ColorSpot 250at  m3.spt                                Robe_ColorSpot_250AT_Mode 3.GS2
+Robe ColorSpot 250at  m4.spt                                Robe_ColorSpot_250AT_Mode 4.GS2
+Robe ColorSpot 2500E at  m1.spt                             Robe_Colorspot2500AT_mode 1.GS2
+Robe ColorSpot 575E at  m1.spt                              Robe Color spot 575 AT 16 bit M1.GS2
+Robe ColorSpot 575at  m2.spt                                Robe_ColorSpot575AT_Mode2.GS2
+Robe ColorSpot 575at  m3.spt                                Robe_ColorSpot575AT_Mode3.GS2
+Robe ColorSpot 575at  m4.spt                                Robe_ColorSpot575AT_Mode4.GS2
+Robe ColorSpot 575E at  m2.spt                              Robe_Colorspot575EAT_mode 2.GS2
+Robe ColorSpot 700E at m1.spt                               Robe_ColorSpot700EAT_Mode1-1.GS2
+Robe ColorSpot 700E at m2.spt                               Robe_ColorSpot700EAT_Mode2.GS2
+Robe ColorWash 1200E at m1.spt                              Robe_ColorWash1200EAT_Mode1.GS2
+Robe ColorWash 1200E at m2.spt                              Robe_ColorWash1200EAT_Mode2.GS2
+Robe ColorWash 1200E at m3.spt                              Robe_ColorWash1200EAT_Mode3.GS2
+Robe ColorWash 1200E at m4.spt                              Robe_ColorWash1200EAT_Mode4.GS2
+Robe ColorWash 250at  m1.spt                                Robe_ColorWash250AT_Mode1.GS2
+Robe ColorWash 250at  m2.spt                                Robe_ColorWash250AT_Mode2.GS2
+Robe ColorWash 250at  m3.spt                                Robe_ColorWash250AT_Mode3.GS2
+Robe ColorWash 250at  m4.spt                                Robe_ColorWash250AT_Mode4.GS2
+Robe ColorWash 2500E at m1.spt                              Robe_ColorWash2500EAT_Mode1.GS2
+Robe ColorWash 2500E at m2.spt                              Robe_ColorWash2500EAT_Mode2.GS2
+Robe ColorWash 2500E at m3.spt                              Robe_ColorWash2500EAT_Mode3.GS2
+Robe ColorWash 2500E at m4.spt                              Robe_ColorWash2500EAT_Mode4.GS2
+Robe ColorWash 2500E at m5.spt                              Robe_ColorWash2500EAT_Mode5.GS2
+Robe ColorWash 575at Zoom m1.spt                            Robe_ColorWash575AT_Zoom_M1.GS2
+Robe ColorWash 575at Zoom m2.spt                            Robe_ColorWash575AT_Zoom_M2.GS2
+Robe ColorWash 575at Zoom m3.spt                            Robe_ColorWash575AT_Zoom_M3.GS2
+Robe ColorWash 575at Zoom m4.spt                            Robe_ColorWash575AT_Zoom_M4.GS2
+Robe ColorWash 575at m2.spt                                 Robe_ColorWash575AT_Mode2.GS2
+Robe ColorWash 700E at m1.spt                               Robe_ColorWash700EAT_Mode1.GS2
+Robe ColorWash 700E at m2.spt                               Robe_ColorWash700EAT_Mode2.GS2
+Robe ColorWash 700E at m3.spt                               Robe_ColorWash700EAT_Mode3.GS2
+Robe ColorWash 700E at m4.spt                               Robe_ColorWash700EAT_Mode4.GS2
+Robe ColorWash 750 at m1.spt                                Robe_ColorWash750AT_Mode1.GS2
+Robe ColorWash 750 at m2.spt                                Robe_ColorWash750AT_Mode2.GS2
+Robe ColorWash 750 at m3.spt                                Robe_ColorWash750AT_Mode3.GS2
+Robe ColorWash 750 at m4.spt                                Robe_ColorWash750AT_Mode4.GS2
+Robe DigitalSpot 5000dt.spt                                 Robe_DigitalSpot5000DT-1.GS2
+Robe DJRoller 150xt.spt                                     Robe_DJRoller_150XT.GS2
+Robe DJRoller 250xt.spt                                     Robe_DJRoller250XT.GS2
+Robe DJScan 150xt.spt                                       Robe_DJScan_150XT.GS2
+Robe DJScan 250xt.spt                                       ROBE DJscan 250xt.GS2
+Robe Ecolor 250xt.spt                                       Robe Ecolor 250xt.GS2
+Robe Spot 250xt Zoom 8bit.spt                               Robe_MSZoom250 XT_8bit.GS2
+Robe Spot 250xt Zoom  m1.spt                                Robe_MSZoom250 XT_Mode1.GS2
+Robe Spot 250xt Zoom  m2.spt                                Robe_MSZoom250 XT_Mode2.GS2
+Robe RecessedSpot 170at  m1.spt                             Robe_RecessedSpot170AT_M1.GS2
+Robe RecessedSpot 170at  m2.spt                             Robe_RecessedSpot170AT_M2.GS2
+Robe RecessedSpot 170at  m3.spt                             Robe_RecessedSpot170AT_M3.GS2
+Robe RecessedSpot 170at  m4.spt                             Robe_RecessedSpot170AT_M4.GS2
+Robe RecessedWash 150at  m1.spt                             Robe_RecessedWash150A_M1.GS2
+Robe RecessedWash 150at  m2.spt                             Robe_RecessedWash150A_M2.GS2
+Robe RecessedWash 150at  m3.spt                             Robe_RecessedWash150A_M3.GS2
+Robe RecessedWash 150at  m4.spt                             Robe_RecessedWash150A_M4.GS2
+Robe Scan 1200xt  m1.spt                                    Robe Scan 1200xt 16bit.GS2
+Robe Scan 250xt  m1.spt                                     Robe Scan 250xt 16bit.GS2
+Robe Scan 250xt  m2.spt                                     Robe Scan 250xt 16bit (mode2).GS2
+Robe Wash 575xt  m1.spt                                     Robe wash 575xt 16bit.GS2
+Robe Spot 150xt  m1.spt                                     Robe spot 150 xt 16bit.GS2
+Robe Spot 150xt  m3.spt                                     Robe spot 150xt 8 bit Mode 3.GS2
+Robe Spot 150xt  m4.spt                                     Robe spot 150xt 8 bit Mode 4.GS2
+Robe Spot 160xt  m1.spt                                     Robe spot 160xt 16bit.GS2
+Robe Spot 160xt  m3.spt                                     Robe spot 160xt 8bit mode 3.GS2
+Robe Spot 160xt  m4.spt                                     Robe spot 160xt 8bit mode 4.GS2
+Robe Spot 250xt  8bit.spt                                   Robe_Spot250xt_8bit.GS2
+Robe Spot 250xt  m1.spt                                     Robe spot 250xt 16bit.GS2
+Robe Spot 250xt  m2.spt                                     Robe spot 250xt 16bit_M2.GS2
+Robe Spot 575xt  m1.spt                                     Robe spot 575xt 16bit.GS2
+Robe Wash 150xt  m1.spt                                     Robe wash 150xt 16bit.GS2
+Robe Wash 150xt  m3.spt                                     Robe wash 150xt 8bit Mode3.GS2
+Robe Wash 150xt  m4.spt                                     Robe wash 150xt 8bit Mode4.GS2
+Robe Wash 250xt  m1.spt                                     ROBE wash 250xt 16bit.GS2
+Robe Wash 575xt  m1.spt                                     Robe wash 575xt 16bit.GS2
+Robe ImageSpot 250at 16bit.spt                              Robe_ImageSpot250AT_16 bit.GS2
+Robe ImageSpot 250at 8bit.spt                               Robe_ImageSpot250AT_8 bit.GS2
+Robe LedWash 136lt m1.spt                                   Robe_Ledwash136LT_m1.GS2
+Robe LedWash 136lt m2.spt                                   Robe_Ledwash136LT_m2.GS2
+Rosco I-cue 16bit.spt                                       Rosco_I-Cue.GS2
+SGM ColorLab 250 (Col Hard mode).spt                        SGM Color lab 250.GS2
+SGM Flasher.spt                                             SGM Flasher 1.5.GS2
+SGM Galileo II.spt                                          SGM_Galileo_II_16 bit.GS2
+SGM Galileo III.spt                                         SGM Galileo III.GS2
+SGM Galileo IV.spt                                          SGM Galileo IV.GS2
+SGM Genio.spt                                               SGM_Genio.GS2
+SGM Genio Mobile.spt                                        SGM Genio Mobile.GS2
+SGM Genio White.spt                                         SGM_GenioWhite.GS2
+SGM Giotto Profile 400.spt                                  SGM Giotto Profile 400 16bit.GS2
+SGM Giotto Spot 1200.spt                                    SGM Giotto spot 1200.GS2
+SGM Giotto Spot 250.spt                                     SGM Giotto spot-250.GS2
+SGM Giotto Spot 400 CMY 16bit.spt                           SGM Giotto Spot 400 CMY 16bit.GS2
+SGM Giotto Spot 400.spt                                     SGM Giotto Spot 400 16bit.GS2
+SGM Giotto Wash 1200 Rainbow.spt                            SGM_GiottoWash1200_1_41_16bit.GS2
+SGM Giotto Wash 1200.spt                                    sgm wash.GS2
+SGM Giotto Wash 400.spt                                     SGM Giotto Wash 400 16bit.GS2
+SGM Idea Spot 250 (Pan 540).spt                             SGM IdeaSpot 250 16bit.GS2
+SGM Idea Spot 575 (Pan 540).spt                             SGM IdeaSpot 575 16bit.GS2
+SGM Idea Wash 250 (Pan 540).spt                             SGM IdeaWash 250 16bit.GS2
+SGM Idea Wash 575 (Pan 540).spt                             SGM IdeaWash 575 16bit.GS2
+SGM Newton 1200.spt                                         SGM Newton 1200.GS2
+SGM Palco 3.spt                                             SGM Palco 3 and 5 LED.GS2
+SGM Palco 5.spt                                             SGM Palco 3 and 5 LED.GS2
+SGM Palco 3 Mobile.spt                                      SGM Palco Mobile 3.GS2
+SGM Palco 5 Mobile.spt                                      SGM Palco Mobile 3.GS2
+SGM Synthesis Spot 700 LRT (31 cha).spt                     SGM_SynthesisSpot700_LRT.GS2
+SGM Synthesis Spot 700 LRV (32 cha).spt                     SGM_SynthesisSpot700_LRV.GS2
+SGM Synthesis Wash 700 T (19 cha).spt                       SGM_SynthesisWash700_T.GS2
+SGM Synthesis Wash 700 V (20 cha).spt                       SGM_SynthesisWash700_V.GS2
+SGM Victory II 250 16bit.spt                                SGM_Victory_II_250_16bit.GS2
+SGM Victory II 250 8bit.spt                                 SGM_Victory_II_250.GS2
+Showco Arc Lite 575.spt                                     Showco_ArcLite575.GS2
+Showco Colormix 5000.spt                                    Showco_Colormix5000.GS2
+Showco Spot 250.spt                                         Showco_Spot250.GS2
+Showco Spot 575.spt                                         Showco_Spot575.GS2
+Showco Starmoon.spt                                         Showco_Starmoon.GS2
+Showco Strobe 1500W.spt                                     Showco_Strobe1500.GS2
+Showco Wash 1200.spt                                        Showco_Wash1200.GS2
+Showco Wash 575.spt                                         Showco_Wash575.GS2
+Showtec Arc Pod.spt                                         Showtec_ArcPod.GS2
+Showtec_ET-4_500W.spt                                       Showtec_ET-4_500W.GS2
+Showtec Explorer 250 Pro.spt                                Showtec_Explorer250_Pro.GS2
+Showtec Explorer 250 Wash Pro.spt                           Showtec_Explorer250_WashPro.GS2
+Showtec Explorer 250 Wash.spt                               Showtec_Explorer250_Wash.GS2
+Showtec Explorer 575 Wash.spt                               Showtec_Explorer575_Wash.GS2
+Showtec LED Pixel Track Full.spt                            Showtec_LED_PixelTrack_6cha.GS2
+Showtec LED Wash Ultra Bright RGB.spt                       Showtec_LEDWashUB.GS2
+Showtec Micro Spot 16bit (P540-T270).spt                    Showtec_MicroSpot_16bit.GS2
+Showtec Micro Spot 8bit (P540-T270).spt                     Showtec_MicroSpot_8bit.GS2
+Showtec Micro Wash 8bit (P540-T270).spt                     Showtec_MicroWash_8bit.GS2
+Showtec Micro Wash 16bit (P540-T270).spt                    Showtec_MicroWash_16bit.GS2
+Showtec MiniMax 250.spt                                     Showtec_MiniMax250.GS2
+Showtec Moving Aircraft 16bit.spt                           Showtec_MovingAircraft.GS2
+Showtec Moving PAR 64 16bit.spt                             Showtec_MovingPar64.GS2
+Showtec Space Tracer 4000.spt                               Showtec_SpaceTracer.GS2
+Silver Star YG-LED 110.spt                                  SilverStar_MX-ColorLED110.GS2
+Silver Star YG-LED 301 m1.spt                               SilverStar_YG-LED301_m1.GS2
+Silver Star YG-LED 302.spt                                  SilverStar_YG-LED302.GS2
+Silver Star YG-LED 304A.spt                                 SilverStar_YG-LED304A.GS2
+Silver Star YG-LED 304B.spt                                 SilverStar_YG-LED304B.GS2
+Silver Star YG-LED 601.spt                                  SilverStar_MX-ColorLED601.GS2
+Silver Star YX-1101 16bit.spt                               Silver Star YX-1101.GS2
+Silver Star YX-1102 16bit.spt                               Silver Star YX-1102.GS2
+Silver Star YX-2105 (V. 1.0).spt                            Silver Star YX-2105.GS2
+Silver Star YX-2105 (V. 2.2).spt                            Silver Star YX-2105_V2.2.GS2
+Silver Star YX-2106.spt                                     Silver Star YX-2106.GS2
+Silver Star YX-2107.spt                                     Silver Star YX-2107.GS2
+Silver Star YX-2112.spt                                     Silver Star YX-2112.GS2
+Silver Star YX-320.spt                                      Silver Star YX-320.GS2
+Silver Star YX-321.spt                                      Silver Star YX-321.GS2
+Source The Bat.spt                                          Source_Bat.GS2
+Space Cannon Ireos 4K.spt                                   Space_Cannon_Ireos4th.GS2
+Space Cannon Ireos Pro 7kw.spt                              Space_Cannon_Ireos_Pro_7K.GS2
+Stairville MH575 S (16 bit, cha. Off).spt                   Stairville_MH575s_16bit_m1.GS2
+Stairville MH575 S (16 bit, cha. On).spt                    Stairville_MH575s_16bit_m2.GS2
+Stairville MH575 S (8 bit, cha. Off).spt                    Stairville_MH575s_8bit_m1.GS2
+Stairville MH575 S (8 bit, cha. On).spt                     Stairville_MH575s_8bit_m2.GS2
+Stairville MV250H (normal color).spt                        Stairville_MV250H.GS2
+Stairville MV250H (split color).spt                         Stairville_MV250H_CS.GS2
+Starlite MK5 Zoom.spt                                       Starlite_MK5_Zoom.GS2
+Starway Servo Color 575 16bit.spt                           Star-Way_ServoColor575.GS2
+SD ArchiLED 150-C.spt                                       StudioDue_ArchiLED150.GS2
+SD CityColor 300 (7 cha).spt                                Studio Due CityColor300_7cha.GS2
+SD CityColor 400 (6 cha).spt                                Studio Due CityColor400_6cha.GS2
+SD CityColor 400 (7 cha).spt                                Studio Due CityColor400_7cha.GS2
+SD CityColor 1800.spt                                       StudioDue_CityColor.GS2
+SD CS1 150.spt                                              Studio Due CS1.GS2
+SD CS2 (20 chan., head 1).spt                               Studio Due CS2 (m1).GS2
+SD CS2 (20 chan., head 2).spt                               Studio Due CS2 (m2).GS2
+SD CS4 (20 chan., head 1).spt                               Studio Due CS4 (m1).GS2
+SD CS4 (20 chan., head 2).spt                               Studio Due CS4 (m2).GS2
+SD CS4 (20 chan., head 3).spt                               Studio Due CS4 (m3).GS2
+SD Giant 8bit.spt                                           StudioDue_Giant_8bit.GS2
+SD Hercules 600m (7 cha).spt                                Studio Due Hercules 600m-7cha.GS2
+SD Hercules 800e (10 cha).spt                               Studio Due Hercules 800e_M1-10cha.GS2
+SD Hercules 800e (11 cha).spt                               Studio Due Hercules 800e_M1-11cha.GS2
+SD LivePro 1200 (20 chan.).spt                              StudioDue_LivePro_1200.GS2
+SD MiniCity 100 (7 chan.).spt                               Studio Due MiniCity 100 (7 chan).GS2
+SD MiniCity 250 (6 chan.).spt                               Studio Due MiniCity 250 (6 chan).GS2
+SD MiniCity 250 (7 chan.).spt                               Studio Due MiniCity 250 (7 chan).GS2
+SD NanoLED-C 16bit.spt                                      StudioDue_NanoLED_16bit.GS2
+SD NanoLED-C 8bit.spt                                       StudioDue_NanoLED_8bit.GS2
+SD Shark 150-C (9 cha).spt                                  StudioDue_Shark150-C_09ch.GS2
+SD Shark 150-C (10 cha).spt                                 StudioDue_Shark150-C_10ch.GS2
+SD Shark 150-C (11 cha).spt                                 StudioDue_Shark150-C_11ch.GS2
+SD Shark 150-C (12 cha).spt                                 StudioDue_Shark150-C_12ch.GS2
+SD Shark 250 16bit.spt                                      Studio Due Shark 250 - 16 bit.GS2
+SD Shark 250-C (10 cha).spt                                 StudioDue_Shark250C_10ch.GS2
+SD Shark 250-C (11 cha).spt                                 StudioDue_Shark250C_11ch.GS2
+SD Shark 250-C (12 cha).spt                                 StudioDue_Shark250C_12ch.GS2
+SD Shark 250-C (13 cha).spt                                 StudioDue_Shark250C_13ch.GS2
+SD Space Flower.spt                                         Studio Due Space Flower.GS2
+SD XS700 Wash-C (m1).spt                                    StudioDue_XS700Wash_M1.GS2
+SD XS700 Wash-C (m2).spt                                    StudioDue_XS700Wash_M2.GS2
+SD XS700 Wash-C (m3).spt                                    StudioDue_XS700Wash_M3.GS2
+SD XS700 Wash-C (m4).spt                                    StudioDue_XS700Wash_M4.GS2
+SD XS700-B 16bit (460-270).spt                              StudioDue_XS700B_17ch.GS2
+SD XS700-B 16bit (460-270, 20 ch.).spt                      StudioDue_XS700B_20ch.GS2
+SD Shark 150 strobe3 16bit.spt                              Studio Due Shark 150 16bit- Strobe3.GS2
+SD CityBeam 1800.spt                                        Studio Due CityBeam - 7 chnl.GS2
+SyncroLite SS7K.spt                                         SS7K.GS2
+Syncrolite SXB 8-2.spt                                      Syncrolite_SXB8-2.GS2
+Techni-Lux TechniScan 150.spt                               Techni-Lux Techni-Scan 150.GS2
+Techni-Lux TechniScan DX.spt                                Techni-Lux Techni-Scan DX.GS2
+Techni-Lux TechniScan DXi.spt0                              Techni-Lux Techni-Scan DXi.GS2
+Techni-Lux TechniScan S.spt                                 Techni-lux_Techni-Scan_S.GS2
+Techni-Lux TechniScan SX Pro.spt                            Techni-lux_Techni-Scan_SXPro.GS2
+Terbly Flash 5751 (V. 2.4).spt                              Terbly_Flash575ver2.4.GS2
+Terbly Flash 5751.spt                                       Terbly_FIL575-16bit.GS2
+Terbly Flash 5752 (V. 2.2).spt                              Terbly_wash5752.GS2
+Terbly TB2000.spt                                           Terbly_TB2000.GS2
+Terbly TB2500.spt                                           Terbly_TB2500.GS2
+Vari-Lite VL2416 16bitE.spt                                 VariLite_2416_16bit_E.GS2
+Vari-Lite VL1000 AI.spt                                     Varilite VL1000 TS_T_A_TIA_AI -16 bit.GS2
+Vari-Lite VL1000 AS.spt                                     Varilite VL1000 TS_AS -16 bit.GS2
+Vari-Lite VL2500s.spt                                       VariLite_2500s.GS2
+Vari-Lite VL2500w.spt                                       VariLite_2500w.GS2
+Vari-Lite VL3000s.spt                                       Varilite_VL3000Spot.GS2
+Vari-Lite VL3000w.spt                                       Varilite_VL3000Wash.GS2
+Vari-Lite VL3500s.spt                                       Varilite_VL3500Spot.GS2
+Vari-Lite VL3500w.spt                                       Varilite_VL3500Wash_16bitE.GS2
+Vari-Lite VL500 80V 16bit.spt                               VariLite_VL500_16bit.GS2
+Vari-Lite VL500A 16bit (700w).spt                           VariLite_VL500.GS2
+Vari-Lite VL5 ARC Mode 3.spt                                VariLite_VL5.GS2
+Vari-Lite VL6 Mode 3.spt                                    VariLite_VL6_2.GS2
+Vari-Lite VL6B Mode 6.spt                                   VariLite_VL6B-C_M6.GS2
+Vari-Lite VL6B Mode 7.spt                                   VariLite_VL6B-C_M6.GS2
+Vari-Lite VL6B Mode 8.spt                                   VariLite_VL6B-C_M6.GS2
+Vari-Lite VL6C Mode 5.spt                                   VariLite_VL6B-C_M6.GS2
+Vari-Lite VL6C Mode 6.spt                                   VariLite_VL6B-C_M6.GS2
+Vari-Lite VL6C Mode 7.spt                                   VariLite_VL6B-C_M6.GS2
+Vari-Lite VL6C Mode 8.spt                                   VariLite_VL6B-C_M6.GS2
+Vari-Lite VL1000 TS.spt                                     Varilite VL1000 TS_AS -16 bit.GS2
+Vari-Lite VL1000 TI.spt                                     Varilite VL1000 TS_T_A_TIA_AI -16 bit.GS2
+Vari-Lite VL2202 16bitE.spt                                 VariLite_2202_16bit_E.GS2
+Vari-Lite VL2402 16bitE.spt                                 VariLite_2402_16bit_E.GS2
+Vari-Lite VL500 16bit (230V 1000W).spt                      VariLite_VL500_16bit.GS2
+Vari-Lite VL500 16bit (120V 1200W).spt                      VariLite_VL500.GS2
+VE NovaScan V250-1.spt                                      VisualEffects_NovaScan_250-1.GS2
+Visionlight LED 501.spt                                     Visionlight_LED501.GS2
+Visionlight Moving LED PAR 101.spt                          Visionlight_MovingLED_PAR101.GS2
+Visionlight Moving PAR 201.spt                              Visionlight_MovingPAR.GS2
+Visionlight Sky 1000.spt                                    Visionlight_Sky1000.GS2
+Visionlight Sky 2000.spt                                    Visionlight_Sky2000.GS2
+Visionlight Sky 5000.spt                                    Visionlight_Sky5000.GS2
+VE Lynx 250R.spt                                            VEI_Lynx250R.GS2
+VE Lynx 250R 16bit.spt                                      VEI_Lynx250R_16bit.GS2
+VE NovaScan V250-1.spt                                      VisualEffects_NovaScan_250-1.GS2
+VE NovaScan V250.spt                                        VEI_V250ColorChanger.GS2
+Work Blade 250.spt                                          Work_Blade250.GS2
+Work Blade 575.spt                                          Work_Blade575.GS2
+Work LED Stage 100.spt                                      Work_LEDStage100.GS2
+Wybron Nexera Profile.spt                                   Wybron Nexera (3 cha).GS2
+Wybron Nexera Profile CDM.spt                               Wybron Nexera (4 cha).GS2
+Xilver Droplet HSI compact.spt                              Xilver Droplet HSI Compact.GS2
+Xilver Droplet HSI normal.spt                               Xilver Droplet HSI Normal.GS2
+Xilver Droplet RGB compact.spt                              Xilver Droplet RGB Compact.GS2
+Xilver Droplet RGB normal.spt                               Xilver Droplet RGB Normal.GS2
+Xilver Droplet Static RGB compact.spt                       Xilver_DropletStatic_RGBCompact.GS2
+Xilver Droplet Static RGB normal.spt                        Xilver_DropletStatic_RGBNormal.GS2
+ZAP BigLite 4.5.spt                                         ZAP_BigLite 4.5.GS2
+ZAP LittleBig 3.0.spt                                       ZAP_LittleBig_3.0.GS2

@@ -1,0 +1,3 @@
+LIBRARY gs2Extractor.dll
+EXPORTS
+	Gs_Init	@1
