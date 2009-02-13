@@ -15,15 +15,15 @@ namespace eval SptParser {
             set line [SptParser::remove_comments [lindex $data $i]]
 
             if { [regexp -nocase {(color_wheel)([ \t]+)(additive)([ \t]+)(offset)([ \t]+)([0-9]+)} $line p key1 s1 key2 s2 key3 s3 channel] } {
-    		} elseif { [regexp -nocase {(color_wheel)([ \t]+)(offset)([ \t]+)([0-9]+)} $line p key1 s1 key2 s2 channel] } {
+	    } elseif { [regexp -nocase {(color_wheel)([ \t]+)(offset)([ \t]+)([0-9]+)} $line p key1 s1 key2 s2 channel] } {
             } elseif { [regexp -nocase {(color_wheel)([ \t]+)(nooffset)} $line p key1 s1 key2] } {
-               return $i
+		return $i
             } else {
                 set $line
                 SptParser::PutsVars i line
             }
 
-    		set channeltype($channel) COLORWHEEL
+	    set channeltype($channel) COLORWHEEL
             set wheel_id 0
             if { [info exists fixture(COLORWHEELS)] } {
                 set wheel_id [llength $fixture(COLORWHEELS)]
@@ -46,9 +46,9 @@ namespace eval SptParser {
                 } elseif { [SptParser::parse_line "open" $line 0] } {
                     set i [$type parse_open $i $data fixture $wheel_id 0]
                     continue
-				} elseif { [regexp {(".*")([ \t]*)(RGB)([ \t]*)([0-9]+)([ \t]*)([0-9]+)([ \t]*)([0-9]+)} $line pattern name s1 key s2 r s3 g s4 b] } {
-					if { $r==255 && $g==255 && $b==255 } continue
-					if { $r==0 && $g==0 && $b==0 } continue
+		} elseif { [regexp {"(.*)"([ \t]*)(RGB)([ \t]*)([0-9]+)([ \t]*)([0-9]+)([ \t]*)([0-9]+)} $line pattern name s1 key s2 r s3 g s4 b] } {
+		    if { $r==255 && $g==255 && $b==255 } continue
+		    if { $r==0 && $g==0 && $b==0 } continue
                     set name [SptParser::replace_string $name " " ""]
                     set i [$type parse_rgb $i $data fixture $name $wheel_id $slotid]
                     lappend fixture(COLORWHEEL,$wheel_id) [list $slotid $name $r $g $b]
@@ -205,7 +205,7 @@ namespace eval SptParser {
                     if { $fromslot < 0 } {
                         set fromslot 0
                     }
-                    lappend fixture($channel,$Cmd(scroll)) [list $a5 $a9 COLORWHEEL_TRANSITION $wheelid $slotid $fromslot]
+                    lappend fixture($channel,$Cmd(scroll)) [list $a5 $a9 COLORWHEEL_TRANSITION $wheelid $fromslot $slotid]
                     continue
                 } elseif { [SptParser::parse_line "static from num to num" $line "0 1 3"] } {
                     regexp {(STATIC)([ \t]+)(FROM)([ \t]+)([^ ]+)([ \t]+)(TO)([ \t]+)([^ ]+)} $line pattern a1 a2 a3 a4 a5 a6 a7 a8 a9

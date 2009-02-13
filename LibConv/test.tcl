@@ -5,7 +5,7 @@ package require tclodbc
 
 # ------------------------------ something about gs2 --------------------------------------
 # convert plain text (map table for gs2 to spt) to xml form data
-# filePath is generate by manual, and return is xml form data
+# filePath is generate by manual, and result is xml form data
 proc gen_cnXml { filePath } {
     # para check
     if { ![file exists $filePath] } {
@@ -49,13 +49,12 @@ proc gen_cnXml { filePath } {
     return $data
 }
 
-if { 0 } {
+proc compareTable2tttxml {} {
     set f [open "ttt.xml" "w"]
     puts $f [gen_cnXml compareTable]
     close $f
-    puts "finished"
+    puts "compareTable2tttxml finished"
 }
-
 
 # ------------------------------ something about model parameter file --------------------------------------
 # generate model index file ( Excel File Version )
@@ -146,6 +145,8 @@ proc build_modelIndexFileFromAccess { filePath outlibfolder } {
     }
     puts [db disconnect]
     gen_modelIndexFile $fixtures fixture $outlibfolder
+
+    puts "build model file finished"
 }
 
 proc gen_modelIndexFile { fixtures fix libfolder} {
@@ -192,7 +193,7 @@ proc gen_modelIndexFile { fixtures fix libfolder} {
 }
 
 if { 0 } {
-    build_modelIndexFileFromAccess {W:/VirtualTheater/svn/cp/tools/FLModelManager.accdb} W:/VirtualTheater/svn/cp/tools/fixtureLibs/Spots
+    build_modelIndexFileFromAccess {W:/VirtualTheater/VTV/run/model/lamp/FLModelManager.accdb} W:/VirtualTheater/svn/cp/tools/fixtureLibs/Spots
 #    build_modelIndexFile d:/test/123.xml W:/VirtualTheater/svn/cp/tools/fixtureLibs/Spots
     puts "ok"
 }
@@ -214,7 +215,6 @@ proc get_chnum { filename } {
 
 proc chnums_calculate { folderpath } {
     set dirs [glob -types d $folderpath/*]
-
     foreach dir $dirs {
 	set files [glob -nocomplain -types f $dir/*.xml]
 	foreach file $files {
@@ -282,11 +282,15 @@ proc makelist { compareTablePath folderpath } {
     }
 
     # output
+    set i 0
     foreach line $fixture {
 	lassign $line type name supportgs2 chnum
-	puts [format "%-40s%-80s%-20s%-20s" $type $name $supportgs2 $chnum]
-	
+	puts [format "%-20s%-60s%-15s%-10s" $type $name supportgs2=$supportgs2 chnum=$chnum]
+	if { $supportgs2 == 1 } {
+	    incr i
+	}
     }
+    puts "number of support gs2 format file = $i"
     puts ok
 }
 
@@ -295,7 +299,7 @@ if {0} {
 }
 
 # ------------------------------ convert Old fixture model library to new form ( from Excel file to MS Access Database --------------------------------------
-
+# this function is obsolete, because excel format is not use
 proc convertWangLiExcelToAccess excelExportXMLPath {
     # para check
     if { ![file exists $excelExportXMLPath] } {

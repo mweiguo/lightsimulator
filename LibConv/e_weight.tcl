@@ -8,10 +8,10 @@ namespace eval SptParser {
             upvar $fix     fixture
             set line [SptParser::remove_comments [lindex $data $i]]
 
-			if { ![SptParser::parse_line "weight num unit" $line 0] } {
-				SptParser::PutsVars i line
-			}
-			return $i
+	    if { [regexp -nocase {weight[ \t]+([0-9]+[\.0-9]+)[ \t]+kg} $line p weight] } {
+		set fixture(WEIGHT) $weight
+	    }
+	    return $i
     	}
     }
 }

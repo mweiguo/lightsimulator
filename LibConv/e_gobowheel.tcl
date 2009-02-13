@@ -42,7 +42,6 @@ namespace eval SptParser {
                 } elseif { [regexp {"(.*)"[ \t]*"(.*)"} $line pat name path] } {
                     set name [SptParser::replace_string $name " " ""]
                     lappend fixture(EFFECTS) $name
-#                    set path [SptParser::replace_string $path " " ""]
                     set i [$type parse_gobo $i $data fixture $path $wheel_id $slotid]
                     lappend fixture(GOBOWHEEL,$wheel_id) [list $slotid $name $path]
                     incr slotid
@@ -51,9 +50,9 @@ namespace eval SptParser {
                     set channeltype($a5) GOBOWHEEL
                     set i [$type parse_rotation $i $data fixture $wheel_id $a5]
                     continue
-                } elseif { [regexp {(GOBO_INDEX)([ \t]+)(OFFSET)([ \t]+)([0-9]+)} $line p a1 a2 a3 a4 a5] } {
-                    set channeltype($a5) GOBOWHEEL
-                    set i [$type parse_index $i $data fixture $wheel_id $a5]
+                } elseif { [regexp {GOBO_INDEX[ \t]+OFFSET[ \t]+([0-9]+)} $line p ch] } {
+                    set channeltype($ch) GOBOWHEEL
+                    set i [$type parse_index $i $data fixture $wheel_id $ch]
                     continue
                 } else {
                     regexp -nocase {([ \t]*)([^ \t]*)([ \t]*)} $line p s1 key s2
@@ -189,6 +188,11 @@ namespace eval SptParser {
         typemethod parse_gobo {i data fix name wheelid slotid} {
             upvar $fix fixture
             set times 0
+	    set fromslot [expr $slotid -1]
+	    if { $fromslot < 0 } {
+		set fromslot 0
+	    }
+
             for {incr i} { $i<[llength $data] } {incr i } {
                 set line [SptParser::remove_comments [lindex $data $i]]
 
@@ -198,7 +202,7 @@ namespace eval SptParser {
                 if { [regexp -nocase {(^[ \t]*ROTATING)([ \t]+)(FROM)([ \t]+)([0-9]+)([ \t]+)(TO)([ \t]+)([0-9]+)} $line pattern a1 a2 a3 a4 a5 a6 a7 a8 a9] } {
                     lappend fixture(CHANNELS) $channel
                     lappend fixture($channel,COMMAND) $Cmd(scroll)
-                    lappend fixture($channel,$Cmd(scroll)) [list $a5 $a9 GOBOWHEEL_TRANSITION $wheelid $slotid [expr $slotid-1]]
+                    lappend fixture($channel,$Cmd(scroll)) [list $a5 $a9 GOBOWHEEL_TRANSITION $wheelid $fromslot $slotid]
                     continue
                 } elseif { [SptParser::parse_line "rotating at num" $line "0 1"] } {
                     continue
@@ -207,7 +211,7 @@ namespace eval SptParser {
                     lappend fixture($channel,COMMAND) $Cmd(rotate_cw)
                     lappend fixture($channel,$Cmd(rotate_cw)) [list $a5 $a9 GOBOWHEEL_CONTINUE $wheelid 0 400];#[expr $slotid-1] $slotid]
                     continue
-                } elseif { [regexp -nocase {(^[ \t]*static)([ \t]+)(from)([ \t]+)([0-9]+)([ \t]+)(to)([ \t]+)([0-9]+)} $line p key s1 key1 s2 from s3 key2 s4 to] } {
+                } elseif { [regexp -nocase {^[ \t]*static[ \t]+from[ \t]+([0-9]+)[ \t]+to[ \t]+([0-9]+)} $line p from to] } {
                     lappend fixture(CHANNELS) $channel
                     lappend fixture($channel,COMMAND) $Cmd(open)
                     lappend fixture($channel,$Cmd(open)) [list $from $to GOBOWHEEL_INDEX_SELECT $wheelid $slotid]
@@ -224,17 +228,21 @@ namespace eval SptParser {
                         lappend fixture($channel,$Cmd(open)) [list $from $to GOBOWHEEL_INDEX_SELECT $wheelid $slotid]
                     }
                     continue
-                } elseif { [regexp -nocase {(^[ \t]*INDEXED)([ \t]+)(FROM)([ \t]+)([0-9]+)([ \t]+)(TO)([ \t]+)([0-9]+)} $line pattern a1 a2 a3 a4 a5 a6 a7 a8 a9] } {
+                } elseif { [regexp -nocase {^[ \t]*INDEXED[ \t]+FROM[ \t]+([0-9]+)[ \t]+TO[ \t]+([0-9]+)} $line pattern from to] } {
+#                     set fixture(INDEXPARA,$from,$to) [list $channel $wheelid $slotid]
+#                     lappend fixture(INDEXPARA) [list $from $to]
                     lappend fixture(CHANNELS) $channel
                     lappend fixture($channel,COMMAND) $Cmd(open)
-                    lappend fixture($channel,$Cmd(open)) [list $a5 $a9 GOBOWHEEL_INDEX_SELECT $wheelid $slotid]
+                    lappend fixture($channel,$Cmd(open)) [list $from $to GOBOWHEEL_INDEX_SELECT $wheelid $slotid]
                     continue
                 } elseif { [regexp -nocase {(shaking)([ \t]+)(from)([ \t]+)([0-9]+)([ \t]+)(to)([ \t]+)([0-9]+)} $line p key s1 key1 s2 from s3 key2 s4 to] } {
                     lappend fixture(CHANNELS) $channel
                     lappend fixture($channel,COMMAND) $Cmd(shake)
                     lappend fixture($channel,$Cmd(shake)) [list $from $to GOBOWHEEL_CONTINUE $wheelid $slotid]
                     continue
-                } elseif { [regexp -nocase {(^[ \t]*shaking)([ \t]+)(and)([ \t]+)(indexed)([ \t]+)(from)([ \t]+)([0-9]+)([ \t]+)(to)([ \t]+)([0-9]+)} $line p key1 s1 key2 s2 key3 s3 key4 s4 from s5 key5 s6 to] } {
+                } elseif { [regexp -nocase {^[ \t]*shaking[ \t]+and[ \t]+indexed[ \t]+from[ \t]+([0-9]+)[ \t]+to[ \t]+([0-9]+)} $line p from to] } {
+#                     set fixture(INDEXPARA,$from,$to) [list $channel $wheelid $slotid]
+#                     lappend fixture(INDEXPARA) [list $from $to]
                     lappend fixture(CHANNELS) $channel
                     lappend fixture($channel,COMMAND) $Cmd(open)
                     lappend fixture($channel,$Cmd(open)) [list $from $to GOBOWHEEL_INDEX_SELECT $wheelid $slotid]
@@ -242,12 +250,14 @@ namespace eval SptParser {
                 } elseif { [regexp -nocase {(^[ \t]*shaking)([ \t]+)(and)([ \t]+)(rotating)([ \t]+)(from)([ \t]+)([0-9]+)([ \t]+)(to)([ \t]+)([0-9]+)} $line p key1 s1 key2 s2 key3 s3 key4 s4 from s5 key5 s6 to] } {
                     lappend fixture(CHANNELS) $channel
                     lappend fixture($channel,COMMAND) $Cmd(scroll)
-                    lappend fixture($channel,$Cmd(scroll)) [list $from $to GOBOWHEEL_TRANSITION $wheelid $slotid [expr $slotid-1]]
+                    lappend fixture($channel,$Cmd(scroll)) [list $from $to GOBOWHEEL_TRANSITION $wheelid $fromslot $slotid]
                     continue
-                } elseif { [regexp -nocase {(^[ \t]*rotating)([ \t]+)(and)([ \t]+)(indexed)([ \t]+)(from)([ \t]+)([0-9]+)([ \t]+)(to)([ \t]+)([0-9]+)} $line p key1 s1 key2 s2 key3 s3 key4 s4 from s5 key5 s6 to] } {
+                } elseif { [regexp -nocase {^[ \t]*rotating[ \t]+and[ \t]+indexed[ \t]+from[ \t]+([0-9]+)[ \t]+to[ \t]+([0-9]+)} $line p from to] } {
+#                     set fixture(INDEXPARA,$from,$to) [list $channel $wheelid $slotid]
+#                     lappend fixture(INDEXPARA) [list $from $to]
                     lappend fixture(CHANNELS) $channel
                     lappend fixture($channel,COMMAND) $Cmd(scroll)
-                    lappend fixture($channel,$Cmd(scroll)) [list $from $to GOBOWHEEL_TRANSITION $wheelid $slotid [expr $slotid-1]]
+                    lappend fixture($channel,$Cmd(scroll)) [list $from $to GOBOWHEEL_TRANSITION $wheelid $fromslot $slotid]
                     continue
                 } elseif { [SptParser::parse_line "keyword and keyword from num to num" $line "1 3 5"] } {
                     continue
@@ -299,41 +309,41 @@ namespace eval SptParser {
             return [expr $i - 1 ]
         }
 
-        typemethod parse_index {i data fix wheelid ch} {
-            upvar $fix fixture
+        typemethod parse_index {i data fix wheelid ch} { 
+	    if {1} {
+		upvar $fix fixture
+		set idx 0
+		set fromAngle ""
+		set toAngle ""
+		for {incr i} { $i<[llength $data] } {incr i } {
+		    set line [SptParser::remove_comments [lindex $data $i]]
 
-            set idx 0
-            set fromAngle ""
-            set toAngle ""
-            for {incr i} { $i<[llength $data] } {incr i } {
-                set line [SptParser::remove_comments [lindex $data $i]]
+		    set rtn [SptParser::check_misc $i $data $line]
+		    if { $rtn > 0 } { set i $rtn; continue } elseif { $rtn != -1 } { continue   }
 
-                set rtn [SptParser::check_misc $i $data $line]
-                if { $rtn > 0 } { set i $rtn; continue } elseif { $rtn != -1 } { continue   }
-
-                if { [SptParser::parse_channeltype $line] } {
-                    continue
-                } elseif { [regexp {([0-9\.\-]+)([ \t]+)(AT)([ \t]+)([0-9]+)} $line p angle s1 key s2 offset] } {
-                    if { $fromAngle == "" } {
-                        set fromAngle $angle
-                        set fromOffset $offset
-                    } elseif {$toAngle == ""} {
-                        set toAngle $angle
-                        set toOffset $offset
-                        lappend fixture($ch,COMMAND) $Cmd(rotate)
-                        lappend fixture($ch,$Cmd(rotate)) [list $fromOffset $toOffset STEP $fromAngle $toAngle]
-                        set fromAngle ""
-                        set toAngle ""
-                    }
-                    continue
-                } elseif { [SptParser::parse_line "num from num to num" $line "1 3"] } {
-                    continue
-                } else {
-                    break
-                }
-            }
-            return [expr $i - 1 ]
-        }
-
+		    if { [SptParser::parse_channeltype $line] } {
+			continue
+		    } elseif { [regexp {([0-9\.\-]+)[ \t]+AT[ \t]+([0-9]+)} $line p angle offset] } {
+			if { $fromAngle == "" } {
+			    set fromAngle $angle
+			    set fromOffset $offset
+			} elseif {$toAngle == ""} {
+			    set toAngle $angle
+			    set toOffset $offset
+			    lappend fixture($ch,COMMAND) $Cmd(rotate)
+			    lappend fixture($ch,$Cmd(rotate)) [list $fromOffset $toOffset STEP $wheelid $fromAngle $toAngle]
+			    set fromAngle ""
+			    set toAngle ""
+			}
+			continue
+		    } elseif { [SptParser::parse_line "num from num to num" $line "1 3"] } {
+			continue
+		    } else {
+			break
+		    }
+		}
+		return [expr $i - 1 ]
+	    }
+	}
     }
 }

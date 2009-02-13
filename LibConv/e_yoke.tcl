@@ -3,7 +3,7 @@ namespace eval SptParser {
 
     snit::type EYoke {
 	typevariable KeyWord1 {HEIGHT WIDTH DEPTH THICKNESS CONNECTION PAN TILT BASE SPEED }
-        typevariable Cmd -array { pan "pan" tilt "tilt" movespeed "set_movespeed"}
+        typevariable Cmd -array { pan "pan" tilt "tilt" pancorse "pan_corse" tiltcorse "tilt_corse" panfine "pan_fine" tiltfine "tilt_fine" movespeed "set_movespeed"}
 
 
         typemethod parse { ct fix i data } {
@@ -42,29 +42,61 @@ namespace eval SptParser {
                 } elseif { [SptParser::parse_line "base" $line 0] } {
                     set i [$type parse_base $i $data]
                     continue
-		} elseif { [regexp -nocase {(^[ \t]*pan)(.*)(offset)([ \t]+)([0-9]+)([ \t]+)(high offset)([ \t]+)([0-9]+)} $line p a1 a2 a3 a4 off1 a5 a6 a7 off2] } {
-                    set channeltype($off2) MOVE
-		    lappend fixture(CHANNELS) $off2; # coarse
-		    lappend fixture($off2,COMMAND) $Cmd(pan)
-                    set i [$type parse_pan $i $data fixture $off2]
+		} elseif { [regexp -nocase {^[ \t]*pan[ \t]+invertable[ \t]+offset[ \t]+([0-9]+)[ \t]+high[ \t]+offset[ \t]+([0-9]+)} $line p loff hioff] } {
+#                    set channeltype($) MOVE
+		    lappend fixture(CHANNELS) $hioff; # coarse
+		    lappend fixture($hioff,COMMAND) $Cmd(pancorse)
+		    lappend fixture(CHANNELS) $loff; # coarse
+		    lappend fixture($loff,COMMAND) $Cmd(panfine)
+                    set i [$type parse_pan $i $data fixture $hioff $loff 2]
+		    continue
+		} elseif { [regexp -nocase {^[ \t]*pan[ \t]+offset[ \t]+([0-9]+)[ \t]+high[ \t]+offset[ \t]+([0-9]+)} $line p loff hioff] } {
+#                    set channeltype($off2) MOVE
+		    lappend fixture(CHANNELS) $hioff; # coarse
+		    lappend fixture($hioff,COMMAND) $Cmd(pancorse)
+		    lappend fixture(CHANNELS) $loff; # coarse
+		    lappend fixture($loff,COMMAND) $Cmd(panfine)
+                    set i [$type parse_pan $i $data fixture $hioff $loff 2]
                     continue
-		} elseif { [regexp -nocase {(^[ \t]*pan)(.*)(offset)([ \t]+)([0-9]+)} $line p a1 a2 a3 a4 off] } {
-                    set channeltype($off) MOVE
+		} elseif { [regexp -nocase {^[ \t]*pan[ \t]+invertable[ \t]+offset[ \t]+([0-9]+)} $line p off] } {
+#                    set channeltype($off) MOVE
 		    lappend fixture(CHANNELS) $off
 		    lappend fixture($off,COMMAND) $Cmd(pan)
-                    set i [$type parse_pan $i $data fixture $off]
+                    set i [$type parse_pan $i $data fixture $off 0 1]
                     continue
-		} elseif { [regexp -nocase {(^[ \t]*tilt)(.*)(offset)([ \t]+)([0-9]+)([ \t]+)(high offset)([ \t]+)([0-9]+)} $line p a1 a2 a3 a4 off1 a5 a6 a7 off2] } {
-                    set channeltype($off2) MOVE
-		    lappend fixture(CHANNELS) $off2; # coarse
-		    lappend fixture($off2,COMMAND) $Cmd(tilt)
-                    set i [$type parse_tilt $i $data fixture $off2]
+		} elseif { [regexp -nocase {^[ \t]*pan[ \t]+offset[ \t]+([0-9]+)} $line p off] } {
+#                    set channeltype($off) MOVE
+		    lappend fixture(CHANNELS) $off
+		    lappend fixture($off,COMMAND) $Cmd(pan)
+                    set i [$type parse_pan $i $data fixture $off 0 1]
+		    continue
+		} elseif { [regexp -nocase {^[ \t]*tilt[ \t]+invertable[ \t]+offset[ \t]+([0-9]+)[ \t]+high[ \t]+offset[ \t]+([0-9]+)} $line p loff hioff] } {
+#                    set channeltype($off2) MOVE
+		    lappend fixture(CHANNELS) $hioff; # coarse
+		    lappend fixture($hioff,COMMAND) $Cmd(tiltcorse)
+		    lappend fixture(CHANNELS) $loff; # coarse
+		    lappend fixture($loff,COMMAND) $Cmd(tiltfine)
+                    set i [$type parse_tilt $i $data fixture $hioff $loff 2]
                     continue
-		} elseif { [regexp -nocase {(^[ \t]*tilt)(.*)(offset)([ \t]+)([0-9]+)} $line p a1 a2 a3 a4 off] } {
-                    set channeltype($off) MOVE
+		} elseif { [regexp -nocase {^[ \t]*tilt[ \t]+offset[ \t]+([0-9]+)[ \t]+high[ \t]+offset[ \t]+([0-9]+)} $line p loff hioff] } {
+#                    set channeltype($off2) MOVE
+		    lappend fixture(CHANNELS) $hioff; # coarse
+		    lappend fixture($hioff,COMMAND) $Cmd(tiltcorse)
+		    lappend fixture(CHANNELS) $loff; # coarse
+		    lappend fixture($loff,COMMAND) $Cmd(tiltfine)
+                    set i [$type parse_tilt $i $data fixture $off2 $loff 2]
+                    continue
+		} elseif { [regexp -nocase {^[ \t]*tilt[ \t]+invertable[ \t]+offset[ \t]+([0-9]+)} $line p off] } {
+#                    set channeltype($off) MOVE
 		    lappend fixture(CHANNELS) $off
 		    lappend fixture($off,COMMAND) $Cmd(tilt)
-                    set i [$type parse_tilt $i $data fixture $off]
+                    set i [$type parse_tilt $i $data fixture $off 0 1]
+                    continue
+		} elseif { [regexp -nocase {^[ \t]*tilt[ \t]+offset[ \t]+([0-9]+)} $line p off] } {
+#                    set channeltype($off) MOVE
+		    lappend fixture(CHANNELS) $off
+		    lappend fixture($off,COMMAND) $Cmd(tilt)
+                    set i [$type parse_tilt $i $data fixture $off 0 1]
                     continue
                 } elseif { [regexp -nocase {(^[ \t]*speed)([ \t]+)(fixed)([ \t]+)(at)([ \t]+)([0-9]+)} $line p a1 a2 a3 a4 a5 a6 num] } {
 		    #					set fixture(MOVESPEED) $num
@@ -110,7 +142,7 @@ namespace eval SptParser {
 	    return $i
 	}
 
-        typemethod parse_pan { i data fix channel} {
+        typemethod parse_pan { i data fix hich loch chnum } {
 	    upvar $fix fixture
 
             for {incr i} { $i<[llength $data] } {incr i } {
@@ -119,23 +151,30 @@ namespace eval SptParser {
                 set rtn [SptParser::check_misc $i $data $line]
                 if { $rtn > 0 } { set i $rtn; continue } elseif { $rtn != -1 } { continue	}
 
-
-                if { [regexp -nocase {([0-9.-]+)([ \t]+)(degrees)([ \t]+)(at)([ \t]+)([0-9]+)} $line p a1 a2 a3 a4 a5 a6 a7] } {
-		    if { $a7 == 0 } {
-			set min $a1
-			if { [info exists max] } {
-#                             set sum [expr abs($min) + abs($max) ]
-#                             set min [expr $sum / -2.0]
-#                             set max [expr $sum / 2.0]
-			    lappend fixture($channel,$Cmd(pan)) [list 0 255 STEP $max $min]
-			}
+                if { [regexp -nocase {([0-9.-]+)[ \t]+degrees[ \t]+at[ \t]+([0-9]+)} $line p deg byteval] } {
+		    if { ![info exists min] } {
+			set min $byteval
+			set max $byteval
+			set mindeg $deg
+			set maxdeg $deg
 		    } else {
-			set max $a1
-			if { [info exists min] } {
-#                             set sum [expr abs($min) + abs($max) ]
-#                             set min [expr $sum / -2.0]
-#                             set max [expr $sum / 2.0]
-			    lappend fixture($channel,$Cmd(pan)) [list 0 255 STEP $max $min]
+			if { $byteval < $min } {
+			    set min $byteval
+			    set mindeg $deg
+			} elseif { $byteval > $max } {
+			    set max $byteval
+			    set maxdeg $deg
+			}
+			
+			if { $chnum == 1 } {
+			    lappend fixture($hich,$Cmd(pan)) [list $min $max STEP $mindeg $maxdeg]
+			} elseif { $chnum == 2 } {
+			    set minhi [expr $min >> 8]
+			    set minlo [expr $min & 0xFF]
+			    set maxhi [expr $max >> 8]
+			    set maxlo [expr $max & 0xFF]
+			    lappend fixture($hich,$Cmd(pancorse)) [list $minhi $maxhi STEP $mindeg $maxdeg]
+			    lappend fixture($loch,$Cmd(panfine)) [list $minlo $maxlo STEP $mindeg $maxdeg]
 			}
 		    }
                     continue
@@ -151,7 +190,7 @@ namespace eval SptParser {
             return [expr $i-1]
         }
 
-        typemethod parse_tilt { i data fix channel } {
+        typemethod parse_tilt { i data fix hich loch chnum } {
 	    upvar $fix fixture
 
             for {incr i} { $i<[llength $data] } {incr i } {
@@ -160,22 +199,30 @@ namespace eval SptParser {
                 set rtn [SptParser::check_misc $i $data $line]
                 if { $rtn > 0 } { set i $rtn; continue } elseif { $rtn != -1 } { continue	}
 
-                if { [regexp -nocase {([0-9.-]+)([ \t]+)(degrees)([ \t]+)(at)([ \t]+)([0-9]+)} $line p a1 a2 a3 a4 a5 a6 a7] } {
-		    if { $a7 == 0 } {
-			set min $a1
-			if { [info exists max] } {
-#                             set sum [expr abs($min) + abs($max) ]
-#                             set min [expr $sum / -2.0]
-#                             set max [expr $sum / 2.0]
-			    lappend fixture($channel,$Cmd(tilt)) [list 0 255 STEP $min $max]
-			}
+                if { [regexp -nocase {([0-9.-]+)[ \t]+degrees[ \t]+at[ \t]+([0-9]+)} $line p deg byteval] } {
+		    if { ![info exists min] } {
+			set min $byteval
+			set max $byteval
+			set mindeg $deg
+			set maxdeg $deg
 		    } else {
-			set max $a1
-			if { [info exists min] } {
-#                             set sum [expr abs($min) + abs($max) ]
-#                             set min [expr $sum / -2.0]
-#                             set max [expr $sum / 2.0]
-			    lappend fixture($channel,$Cmd(tilt)) [list 0 255 STEP $min $max]
+			if { $byteval < $min } {
+			    set min $byteval
+			    set mindeg $deg
+			} elseif { $byteval > $max } {
+			    set max $byteval
+			    set maxdeg $deg
+			}
+			
+			if { $chnum == 1 } {
+			    lappend fixture($hich,$Cmd(tilt)) [list $min $max STEP $mindeg $maxdeg]
+			} elseif { $chnum == 2 } {
+			    set minhi [expr $min >> 8]
+			    set minlo [expr $min & 0xFF]
+			    set maxhi [expr $max >> 8]
+			    set maxlo [expr $max & 0xFF]
+			    lappend fixture($hich,$Cmd(tiltcorse)) [list $minhi $maxhi STEP $mindeg $maxdeg]
+			    lappend fixture($loch,$Cmd(tiltfine)) [list $minlo $maxlo STEP $mindeg $maxdeg]
 			}
 		    }
                     continue
@@ -187,7 +234,6 @@ namespace eval SptParser {
                     break
                 }
             }
-
             return [expr $i-1]
         }
 

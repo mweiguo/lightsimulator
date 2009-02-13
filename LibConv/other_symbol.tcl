@@ -261,8 +261,9 @@ namespace eval SptParser {
 		}
 
 		# iterate each command
-		foreach cmd $fixture($ch,COMMAND) {
+		foreach cmd $fixture($ch,COMMAND) {	    
 		    if { [info exists fixture($ch,$cmd)]==0 } continue
+#		    puts "fixture($ch,COMMAND) = $cmd"
 		    foreach values $fixture($ch,$cmd) {
 			lassign $values vfrom vto vtype vpara1 vpara2 vpara3 vpara4
 
@@ -368,5 +369,61 @@ namespace eval SptParser {
 		}
 	    }
 	}
+
+	# iterate each animation wheel
+	if { [info exists fixture(ANIMATIONWHEELS)] } {
+	    foreach wh $fixture(ANIMATIONWHEELS) {
+		if { [info exists fixture(ANIMATIONWHEEL,$wh)]==0 } continue
+		lassign $fixture(ANIMATIONWHEEL,$wh) id name path
+
+		set wheel [$doc createElement ANIMATIONWHEEL]
+		$root appendChild $wheel
+		$wheel setAttribute id $id name $name path $path
+	    }
+	}
+
+	# iterate each lens
+	if { [info exists fixture(LENS)] } {
+	    foreach lens $fixture(LENS) {
+		lassign $lens name min max
+
+		set lens [$doc createElement LENS]
+		$root appendChild $lens
+		$lens setAttribute name $name min $min max $max
+	    }
+	}
+
+	if { [info exists fixture(MINOPENING)] && [info exists fixture(MAXOPENING)] } {
+	    set lens [$doc createElement LENS]
+	    $root appendChild $lens
+	    $lens setAttribute name DEFAULT min $fixture(MINOPENING) max $fixture(MAXOPENING)
+	    
+	}
+
+	# POWER
+	if { [info exists fixture(WATTAGE)] } {
+	    set power [$doc createElement POWER]
+	    $root appendChild $power
+	    $power setAttribute wattage $fixture(WATTAGE)
+	}
+	
+	# WEIGHT
+	if { [info exists fixture(WEIGHT)] } {
+	    set weight [$doc createElement WEIGHT]
+	    $root appendChild $weight
+	    $weight setAttribute weight $fixture(WEIGHT)
+	}
+	
+	# blades
+	if { [info exists fixture(BLADES)] } {
+	    foreach b $fixture(BLADES) {
+		lassign $b bladeid degree
+		set blade [$doc createElement BLADE]
+		$root appendChild $blade
+		$blade setAttribute id $bladeid degree $degree
+
+	    }
+	}
+	
     }
 }

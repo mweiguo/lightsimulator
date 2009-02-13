@@ -11,6 +11,7 @@ namespace eval SptParser {
 	    #			puts [array get channeltype]
 
             set line [SptParser::remove_comments [lindex $data $i]]
+
 	    if { ![regexp -nocase {(other)([ \t]*)"(.*)"([ \t]*)(offset)([ \t]+)([0-9]+)} $line p key1 s1 name s2 key2 s3 channel] } {
 		return $i
 	    }
@@ -40,21 +41,27 @@ namespace eval SptParser {
 		    set i [$type parse_framing_inout $i $data fixture]
 		}
 	    } else {
-		if {[regexp -nocase {(other)([ \t]*)"(gobo)([ \t]*)([0-9])([ \t]+)(fine)"([ \t]+)(offset)([ \t]+)([0-9]+)} $line p key0 s0 key1 s1 slot s2 key2 s3 key3 s4 offset] } {
+		if {[regexp -nocase {other[ \t]*"gobo[ \t]*([0-9])[ \t]+fine"[ \t]+offset[ \t]+([0-9]+)} $line p slot offset] } {
 		    set i [$type parse_gobowheel $i $data fixture $channel]
-		} elseif { [regexp -nocase {(OTHER)([ \t]*)"(reset)"([ \t]*)(OFFSET)([ \t]*)([0-9]+)} $line p key1 s1 name s2 key2 s3 offset] } {
+		} elseif { [regexp -nocase {OTHER[ \t]*"reset"[ \t]*OFFSET[ \t]*([0-9]+)} $line p offset] } {
 		    set i [$type parse_control $i $data fixture $channel]
-		} elseif { [regexp -nocase {(OTHER)([ \t]*)"(pan/tilt speed)"([ \t]*)(OFFSET)([ \t]*)([0-9]+)} $line p key1 s1 name s2 key2 s3 offset] } {
+		} elseif { [regexp -nocase {OTHER[ \t]*"pan/tilt speed"[ \t]*OFFSET[ \t]*([0-9]+)} $line p offset] } {
 		    set i [$type parse_pan_tilt_speed $i $data fixture $channel]
 		} elseif { [regexp -nocase {OTHER[ \t]*"focus"[ \t]*OFFSET[ \t]*([0-9]+)} $line p offset] } {
 		    set i [$type parse_focus $i $data fixture $offset]
-		} elseif { [regexp -nocase {(OTHER)([ \t]*)"(lamp control)"([ \t]*)(OFFSET)([ \t]*)([0-9]+)} $line p key1 s1 name s2 key2 s3 offset] } {
+		} elseif { [regexp -nocase {OTHER[ \t]*"lamp control"[ \t]*OFFSET[ \t]*([0-9]+)} $line p offset] } {
 		    set i [$type parse_control $i $data fixture $channel]
-		} elseif { [regexp -nocase {(OTHER)([ \t]*)"(color speed)"([ \t]*)(OFFSET)([ \t]*)([0-9]+)} $line p key1 s1 name s2 key2 s3 offset] } {
+		} elseif { [regexp -nocase {OTHER[ \t]*"color speed"[ \t]*OFFSET[ \t]*([0-9]+)} $line p offset] } {
 		    set i [$type parse_colorwheel $i $data fixture $channel]
-		} elseif { [regexp -nocase {(OTHER)([ \t]*)"(gobo speed)"([ \t]*)(OFFSET)([ \t]*)([0-9]+)} $line p key1 s1 name s2 key2 s3 offset] } {
+		} elseif { [regexp -nocase {OTHER[ \t]*"gobo speed"[ \t]*OFFSET[ \t]*([0-9]+)} $line p offset] } {
 		    set i [$type parse_gobowheel $i $data fixture $channel]
-		} elseif { [regexp -nocase {(OTHER)([ \t]*)"(.*)"([ \t]*)(OFFSET)([ \t]*)([0-9]+)} $line p key1 s1 name s2 key2 s3 offset] } {
+		} elseif { [regexp -nocase {OTHER[ \t]*"(.*)"[ \t]*OFFSET[ \t]*([0-9]+)} $line p name offset] } {
+# 		    puts "$name"
+# 		    if { [info exists fixture(COMMAND,$name)] } {
+# 			set cmd $fixture(COMMAND,$name)
+# 			puts $cmd
+# 			set i [$cmd $i $data fixture]
+# 		    }
                     set name [SptParser::replace_string $name " " ""]
 		    if { [info exists fixture(EFFECTS)] && [expr -1 != [lsearch $fixture(EFFECTS) $name]] } {
 			set i [$type parse_effectwheel $i $data fixture]
@@ -939,7 +946,7 @@ namespace eval SptParser {
 		    if { [info exists faroffset] } {
 			lappend fixture(CHANNELS) $channel
                         lappend fixture($channel,COMMAND) $Cmd(focus)
-			lappend fixture($channel,$Cmd(strobe)) [list $nearoffset $faroffset CONTINUE 0 1]
+			lappend fixture($channel,$Cmd(focus)) [list $nearoffset $faroffset CONTINUE 0 1]
 		    }
 		    continue
 		} elseif { [regexp -nocase {("wide lens near")([ \t]*)(at)([ \t]*)([0-9]+)} $line p key a1 a2 a3 num] } {
@@ -1011,27 +1018,21 @@ namespace eval SptParser {
 		if { [SptParser::parse_channeltype $line] } {
 		    continue
 		} elseif { [regexp -nocase {("\-")([ \t]*)(at)([ \t]*)([0-9]+)} $line p key a1 a2 a3 neg] } {
-		    puts aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 		    if { [expr [info exists pos] && [info exists from] && [info exists to]] } {
-			puts __aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 			lappend fixture(CHANNELS) $channel
 			lappend fixture($channel,COMMAND) $Cmd(rotate_leftshutter)
 			lappend fixture($channel,$Cmd(rotate_leftshutter)) [list $neg $pos STEP -90 90]
 		    }
 		    continue
 		} elseif { [regexp -nocase {("\+")([ \t]*)(at)([ \t]*)([0-9]+)} $line p key a1 a2 a3 pos] } {
-		    puts bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 		    if { [expr [info exists neg] && [info exists from] && [info exists to]] } {
-			puts __bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 			lappend fixture(CHANNELS) $channel
 			lappend fixture($channel,COMMAND) $Cmd(rotate_leftshutter)
 			lappend fixture($channel,$Cmd(rotate_leftshutter)) [list $neg $pos STEP -90 90]
 		    }
 		    continue
 		} elseif { [regexp -nocase {("parallel")([ \t]*)(FROM)([ \t]*)([0-9]+)([ \t]*)(TO)([ \t]*)([0-9]+)} $line p key a1 a2 a3 from a4 a5 a6 to] } {
-		    puts ccccccccccccccccccccccccccccccccccccccccccccc
 		    if { [expr [info exists neg] && [info exists pos]] } {
-			puts __ccccccccccccccccccccccccccccccccccccccccccccc
 			lappend fixture(CHANNELS) $channel
 			lappend fixture($channel,COMMAND) $Cmd(rotate_leftshutter)
 			lappend fixture($channel,$Cmd(rotate_leftshutter)) [list $neg $pos STEP -90 90]
